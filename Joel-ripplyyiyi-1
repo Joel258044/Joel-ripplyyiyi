@@ -1,2074 +1,536 @@
-mixed-port: 7890
+port: 7890
+socks-port: 7891
 allow-lan: true
-bind-address: "*"
-mode: rule
+mode: Rule
 log-level: info
-external-controller: 127.0.0.1:9090
+external-controller: :9090
 proxies:
-  - name: 🇭🇰 Joel | hk｜香港 | 1
-    server: h192837.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 2
-    server: h192837.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 3
-    server: h192837.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 4
-    server: h517439.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 5
-    server: h517439.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 6
-    server: h517439.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 7
-    server: h63956.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 8
-    server: h63956.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 9
-    server: h63956.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 10
-    server: h738106.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 11
-    server: h738106.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 12
-    server: h738106.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 13
-    server: h890361.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 14
-    server: h890361.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 15
-    server: h890361.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 16
-    server: h961359.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 17
-    server: h961359.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 18
-    server: h961359.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 19
-    server: h961684.strongpipe.live
-    port: 11543
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 20
-    server: h961684.strongpipe.live
-    port: 11544
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇭🇰 Joel | hk｜香港 | 21
-    server: h961684.strongpipe.live
-    port: 11545
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 1
-    server: h192837.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 2
-    server: h192837.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 3
-    server: h192837.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 4
-    server: h517439.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 5
-    server: h517439.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 6
-    server: h517439.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 7
-    server: h63956.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 8
-    server: h63956.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 9
-    server: h63956.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 10
-    server: h738106.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 11
-    server: h738106.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 12
-    server: h738106.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 13
-    server: h890361.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 14
-    server: h890361.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 15
-    server: h890361.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 16
-    server: h961359.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 17
-    server: h961359.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 18
-    server: h961359.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 19
-    server: h961684.strongpipe.live
-    port: 11443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 20
-    server: h961684.strongpipe.live
-    port: 11444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇯🇵 Joel | JP｜日本 | 21
-    server: h961684.strongpipe.live
-    port: 11445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 1
-    server: h192837.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 2
-    server: h192837.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 3
-    server: h192837.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 4
-    server: h517439.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 5
-    server: h517439.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 6
-    server: h517439.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 7
-    server: h63956.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 8
-    server: h63956.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 9
-    server: h63956.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 10
-    server: h738106.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 11
-    server: h738106.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 12
-    server: h738106.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 13
-    server: h890361.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 14
-    server: h890361.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 15
-    server: h890361.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 16
-    server: h961359.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 17
-    server: h961359.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 18
-    server: h961359.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 19
-    server: h961684.strongpipe.live
-    port: 11243
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 20
-    server: h961684.strongpipe.live
-    port: 11244
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇺🇸 Joel | US｜美国 | 21
-    server: h961684.strongpipe.live
-    port: 11245
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 1
-    server: h192837.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 2
-    server: h192837.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 3
-    server: h192837.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 4
-    server: h517439.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 5
-    server: h517439.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 6
-    server: h517439.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 7
-    server: h63956.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 8
-    server: h63956.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 9
-    server: h63956.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 10
-    server: h738106.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 11
-    server: h738106.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 12
-    server: h738106.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 13
-    server: h890361.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 14
-    server: h890361.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 15
-    server: h890361.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 16
-    server: h961359.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 17
-    server: h961359.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 18
-    server: h961359.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 19
-    server: h961684.strongpipe.live
-    port: 11743
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 20
-    server: h961684.strongpipe.live
-    port: 11744
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇩🇪 Joel | de｜德国 | 21
-    server: h961684.strongpipe.live
-    port: 11745
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜台湾 | 1
-    server: h3816tw.strongpipe.live
-    port: 20443
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜台湾 | 2
-    server: h3816tw.strongpipe.live
-    port: 20444
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜台湾 | 3
-    server: h3816tw.strongpipe.live
-    port: 20445
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜台湾 | 4
-    server: h3816tw.strongpipe.live
-    port: 20446
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜台湾 | 5
-    server: h3816tw.strongpipe.live
-    port: 20447
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜台湾 | 6
-    server: h3816tw.strongpipe.live
-    port: 20448
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜台湾 | 7
-    server: h3816tw.strongpipe.live
-    port: 20449
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 1
-    server: h192837.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 2
-    server: h192837.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 3
-    server: h192837.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 4
-    server: h517439.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 5
-    server: h517439.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 6
-    server: h517439.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 7
-    server: h63956.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 8
-    server: h63956.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 9
-    server: h63956.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 10
-    server: h738106.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 11
-    server: h738106.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 12
-    server: h738106.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 13
-    server: h890361.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 14
-    server: h890361.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 15
-    server: h890361.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 16
-    server: h961359.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 17
-    server: h961359.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 18
-    server: h961359.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 19
-    server: h961684.strongpipe.live
-    port: 11343
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 20
-    server: h961684.strongpipe.live
-    port: 11344
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
-  - name: 🇨🇳 Joel | tw｜中华民国 | 21
-    server: h961684.strongpipe.live
-    port: 11345
-    type: http
-    username: dcf12c7e7d
-    password: 26bae9b023
-    tls: true
-    skip-cert-verify: true
+  - {name: Joel_01, server: h192837.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_02, server: h192837.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_03, server: h192837.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_04, server: h192837.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_05, server: h192837.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_06, server: h192837.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_07, server: h192837.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_08, server: h192837.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_09, server: h192837.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_10, server: h192837.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_11, server: h192837.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_12, server: h192837.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_13, server: h192837.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_14, server: h192837.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_15, server: h192837.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_16, server: h3816tw.strongpipe.live, port: 20443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_17, server: h3816tw.strongpipe.live, port: 20444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_18, server: h3816tw.strongpipe.live, port: 20445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_19, server: h3816tw.strongpipe.live, port: 20446, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_20, server: h3816tw.strongpipe.live, port: 20447, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_21, server: h3816tw.strongpipe.live, port: 20448, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_22, server: h3816tw.strongpipe.live, port: 20449, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_23, server: h517439.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_24, server: h517439.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_25, server: h517439.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_26, server: h517439.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_27, server: h517439.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_28, server: h517439.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_29, server: h517439.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_30, server: h517439.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_31, server: h517439.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_32, server: h517439.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_33, server: h517439.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_34, server: h517439.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_35, server: h517439.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_36, server: h517439.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_37, server: h517439.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_38, server: h63956.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_39, server: h63956.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_40, server: h63956.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_41, server: h63956.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_42, server: h63956.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_43, server: h63956.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_44, server: h63956.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_45, server: h63956.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_46, server: h63956.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_47, server: h63956.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_48, server: h63956.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_49, server: h63956.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_50, server: h63956.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_51, server: h63956.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_52, server: h63956.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_53, server: h738106.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_54, server: h738106.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_55, server: h738106.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_56, server: h738106.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_57, server: h738106.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_58, server: h738106.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_59, server: h738106.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_60, server: h738106.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_61, server: h738106.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_62, server: h738106.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_63, server: h738106.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_64, server: h738106.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_65, server: h738106.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_66, server: h738106.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_67, server: h738106.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_68, server: h890361.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_69, server: h890361.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_70, server: h890361.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_71, server: h890361.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_72, server: h890361.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_73, server: h890361.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_74, server: h890361.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_75, server: h890361.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_76, server: h890361.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_77, server: h890361.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_78, server: h890361.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_79, server: h890361.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_80, server: h890361.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_81, server: h890361.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_82, server: h890361.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_83, server: h961359.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_84, server: h961359.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_85, server: h961359.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_86, server: h961359.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_87, server: h961359.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_88, server: h961359.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_89, server: h961359.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_90, server: h961359.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_91, server: h961359.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_92, server: h961359.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_93, server: h961359.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_94, server: h961359.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_95, server: h961359.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_96, server: h961359.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_97, server: h961359.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_98, server: h961684.strongpipe.live, port: 11243, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_99, server: h961684.strongpipe.live, port: 11244, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_100, server: h961684.strongpipe.live, port: 11245, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_101, server: h961684.strongpipe.live, port: 11343, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_102, server: h961684.strongpipe.live, port: 11344, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_103, server: h961684.strongpipe.live, port: 11345, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_104, server: h961684.strongpipe.live, port: 11443, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_105, server: h961684.strongpipe.live, port: 11444, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_106, server: h961684.strongpipe.live, port: 11445, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_107, server: h961684.strongpipe.live, port: 11543, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_108, server: h961684.strongpipe.live, port: 11544, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_109, server: h961684.strongpipe.live, port: 11545, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_110, server: h961684.strongpipe.live, port: 11743, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_111, server: h961684.strongpipe.live, port: 11744, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Joel_112, server: h961684.strongpipe.live, port: 11745, type: http, username: dcf12c7e7d, password: 26bae9b023, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
-  - name: ❤️ Joel
+  - name: Proxy
     type: select
     proxies:
-      - 🎈 Failover
-      - 💡 Auto
-      - 🔰 SSR节点选择
-      - 🇭🇰 Joel | hk｜香港 | 1
-      - 🇭🇰 Joel | hk｜香港 | 2
-      - 🇭🇰 Joel | hk｜香港 | 3
-      - 🇭🇰 Joel | hk｜香港 | 4
-      - 🇭🇰 Joel | hk｜香港 | 5
-      - 🇭🇰 Joel | hk｜香港 | 6
-      - 🇭🇰 Joel | hk｜香港 | 7
-      - 🇭🇰 Joel | hk｜香港 | 8
-      - 🇭🇰 Joel | hk｜香港 | 9
-      - 🇭🇰 Joel | hk｜香港 | 10
-      - 🇭🇰 Joel | hk｜香港 | 11
-      - 🇭🇰 Joel | hk｜香港 | 12
-      - 🇭🇰 Joel | hk｜香港 | 13
-      - 🇭🇰 Joel | hk｜香港 | 14
-      - 🇭🇰 Joel | hk｜香港 | 15
-      - 🇭🇰 Joel | hk｜香港 | 16
-      - 🇭🇰 Joel | hk｜香港 | 17
-      - 🇭🇰 Joel | hk｜香港 | 18
-      - 🇭🇰 Joel | hk｜香港 | 19
-      - 🇭🇰 Joel | hk｜香港 | 20
-      - 🇭🇰 Joel | hk｜香港 | 21
-      - 🇯🇵 Joel | JP｜日本 | 1
-      - 🇯🇵 Joel | JP｜日本 | 2
-      - 🇯🇵 Joel | JP｜日本 | 3
-      - 🇯🇵 Joel | JP｜日本 | 4
-      - 🇯🇵 Joel | JP｜日本 | 5
-      - 🇯🇵 Joel | JP｜日本 | 6
-      - 🇯🇵 Joel | JP｜日本 | 7
-      - 🇯🇵 Joel | JP｜日本 | 8
-      - 🇯🇵 Joel | JP｜日本 | 9
-      - 🇯🇵 Joel | JP｜日本 | 10
-      - 🇯🇵 Joel | JP｜日本 | 11
-      - 🇯🇵 Joel | JP｜日本 | 12
-      - 🇯🇵 Joel | JP｜日本 | 13
-      - 🇯🇵 Joel | JP｜日本 | 14
-      - 🇯🇵 Joel | JP｜日本 | 15
-      - 🇯🇵 Joel | JP｜日本 | 16
-      - 🇯🇵 Joel | JP｜日本 | 17
-      - 🇯🇵 Joel | JP｜日本 | 18
-      - 🇯🇵 Joel | JP｜日本 | 19
-      - 🇯🇵 Joel | JP｜日本 | 20
-      - 🇯🇵 Joel | JP｜日本 | 21
-      - 🇺🇸 Joel | US｜美国 | 1
-      - 🇺🇸 Joel | US｜美国 | 2
-      - 🇺🇸 Joel | US｜美国 | 3
-      - 🇺🇸 Joel | US｜美国 | 4
-      - 🇺🇸 Joel | US｜美国 | 5
-      - 🇺🇸 Joel | US｜美国 | 6
-      - 🇺🇸 Joel | US｜美国 | 7
-      - 🇺🇸 Joel | US｜美国 | 8
-      - 🇺🇸 Joel | US｜美国 | 9
-      - 🇺🇸 Joel | US｜美国 | 10
-      - 🇺🇸 Joel | US｜美国 | 11
-      - 🇺🇸 Joel | US｜美国 | 12
-      - 🇺🇸 Joel | US｜美国 | 13
-      - 🇺🇸 Joel | US｜美国 | 14
-      - 🇺🇸 Joel | US｜美国 | 15
-      - 🇺🇸 Joel | US｜美国 | 16
-      - 🇺🇸 Joel | US｜美国 | 17
-      - 🇺🇸 Joel | US｜美国 | 18
-      - 🇺🇸 Joel | US｜美国 | 19
-      - 🇺🇸 Joel | US｜美国 | 20
-      - 🇺🇸 Joel | US｜美国 | 21
-      - 🇩🇪 Joel | de｜德国 | 1
-      - 🇩🇪 Joel | de｜德国 | 2
-      - 🇩🇪 Joel | de｜德国 | 3
-      - 🇩🇪 Joel | de｜德国 | 4
-      - 🇩🇪 Joel | de｜德国 | 5
-      - 🇩🇪 Joel | de｜德国 | 6
-      - 🇩🇪 Joel | de｜德国 | 7
-      - 🇩🇪 Joel | de｜德国 | 8
-      - 🇩🇪 Joel | de｜德国 | 9
-      - 🇩🇪 Joel | de｜德国 | 10
-      - 🇩🇪 Joel | de｜德国 | 11
-      - 🇩🇪 Joel | de｜德国 | 12
-      - 🇩🇪 Joel | de｜德国 | 13
-      - 🇩🇪 Joel | de｜德国 | 14
-      - 🇩🇪 Joel | de｜德国 | 15
-      - 🇩🇪 Joel | de｜德国 | 16
-      - 🇩🇪 Joel | de｜德国 | 17
-      - 🇩🇪 Joel | de｜德国 | 18
-      - 🇩🇪 Joel | de｜德国 | 19
-      - 🇩🇪 Joel | de｜德国 | 20
-      - 🇩🇪 Joel | de｜德国 | 21
-      - 🇨🇳 Joel | tw｜台湾 | 1
-      - 🇨🇳 Joel | tw｜台湾 | 2
-      - 🇨🇳 Joel | tw｜台湾 | 3
-      - 🇨🇳 Joel | tw｜台湾 | 4
-      - 🇨🇳 Joel | tw｜台湾 | 5
-      - 🇨🇳 Joel | tw｜台湾 | 6
-      - 🇨🇳 Joel | tw｜台湾 | 7
-      - 🇨🇳 Joel | tw｜中华民国 | 1
-      - 🇨🇳 Joel | tw｜中华民国 | 2
-      - 🇨🇳 Joel | tw｜中华民国 | 3
-      - 🇨🇳 Joel | tw｜中华民国 | 4
-      - 🇨🇳 Joel | tw｜中华民国 | 5
-      - 🇨🇳 Joel | tw｜中华民国 | 6
-      - 🇨🇳 Joel | tw｜中华民国 | 7
-      - 🇨🇳 Joel | tw｜中华民国 | 8
-      - 🇨🇳 Joel | tw｜中华民国 | 9
-      - 🇨🇳 Joel | tw｜中华民国 | 10
-      - 🇨🇳 Joel | tw｜中华民国 | 11
-      - 🇨🇳 Joel | tw｜中华民国 | 12
-      - 🇨🇳 Joel | tw｜中华民国 | 13
-      - 🇨🇳 Joel | tw｜中华民国 | 14
-      - 🇨🇳 Joel | tw｜中华民国 | 15
-      - 🇨🇳 Joel | tw｜中华民国 | 16
-      - 🇨🇳 Joel | tw｜中华民国 | 17
-      - 🇨🇳 Joel | tw｜中华民国 | 18
-      - 🇨🇳 Joel | tw｜中华民国 | 19
-      - 🇨🇳 Joel | tw｜中华民国 | 20
-      - 🇨🇳 Joel | tw｜中华民国 | 21
-  - name: ☁️ Domestic
-    type: select
-    proxies:
-      - DIRECT
-      - ❤️ Joel
-  - name: 🛡 Shield
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 💡 Auto
+      - 💡 自动选择
+      - Joel_01
+      - Joel_02
+      - Joel_03
+      - Joel_04
+      - Joel_05
+      - Joel_06
+      - Joel_07
+      - Joel_08
+      - Joel_09
+      - Joel_10
+      - Joel_11
+      - Joel_12
+      - Joel_13
+      - Joel_14
+      - Joel_15
+      - Joel_16
+      - Joel_17
+      - Joel_18
+      - Joel_19
+      - Joel_20
+      - Joel_21
+      - Joel_22
+      - Joel_23
+      - Joel_24
+      - Joel_25
+      - Joel_26
+      - Joel_27
+      - Joel_28
+      - Joel_29
+      - Joel_30
+      - Joel_31
+      - Joel_32
+      - Joel_33
+      - Joel_34
+      - Joel_35
+      - Joel_36
+      - Joel_37
+      - Joel_38
+      - Joel_39
+      - Joel_40
+      - Joel_41
+      - Joel_42
+      - Joel_43
+      - Joel_44
+      - Joel_45
+      - Joel_46
+      - Joel_47
+      - Joel_48
+      - Joel_49
+      - Joel_50
+      - Joel_51
+      - Joel_52
+      - Joel_53
+      - Joel_54
+      - Joel_55
+      - Joel_56
+      - Joel_57
+      - Joel_58
+      - Joel_59
+      - Joel_60
+      - Joel_61
+      - Joel_62
+      - Joel_63
+      - Joel_64
+      - Joel_65
+      - Joel_66
+      - Joel_67
+      - Joel_68
+      - Joel_69
+      - Joel_70
+      - Joel_71
+      - Joel_72
+      - Joel_73
+      - Joel_74
+      - Joel_75
+      - Joel_76
+      - Joel_77
+      - Joel_78
+      - Joel_79
+      - Joel_80
+      - Joel_81
+      - Joel_82
+      - Joel_83
+      - Joel_84
+      - Joel_85
+      - Joel_86
+      - Joel_87
+      - Joel_88
+      - Joel_89
+      - Joel_90
+      - Joel_91
+      - Joel_92
+      - Joel_93
+      - Joel_94
+      - Joel_95
+      - Joel_96
+      - Joel_97
+      - Joel_98
+      - Joel_99
+      - Joel_100
+      - Joel_101
+      - Joel_102
+      - Joel_103
+      - Joel_104
+      - Joel_105
+      - Joel_106
+      - Joel_107
+      - Joel_108
+      - Joel_109
+      - Joel_110
+      - Joel_111
+      - Joel_112
+  - name: 💡 自动选择
     type: url-test
-    url: http://www.gstatic.com/generate_204
+    url: https://www.google.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇭🇰 Joel | hk｜香港 | 1
-      - 🇭🇰 Joel | hk｜香港 | 2
-      - 🇭🇰 Joel | hk｜香港 | 3
-      - 🇭🇰 Joel | hk｜香港 | 4
-      - 🇭🇰 Joel | hk｜香港 | 5
-      - 🇭🇰 Joel | hk｜香港 | 6
-      - 🇭🇰 Joel | hk｜香港 | 7
-      - 🇭🇰 Joel | hk｜香港 | 8
-      - 🇭🇰 Joel | hk｜香港 | 9
-      - 🇭🇰 Joel | hk｜香港 | 10
-      - 🇭🇰 Joel | hk｜香港 | 11
-      - 🇭🇰 Joel | hk｜香港 | 12
-      - 🇭🇰 Joel | hk｜香港 | 13
-      - 🇭🇰 Joel | hk｜香港 | 14
-      - 🇭🇰 Joel | hk｜香港 | 15
-      - 🇭🇰 Joel | hk｜香港 | 16
-      - 🇭🇰 Joel | hk｜香港 | 17
-      - 🇭🇰 Joel | hk｜香港 | 18
-      - 🇭🇰 Joel | hk｜香港 | 19
-      - 🇭🇰 Joel | hk｜香港 | 20
-      - 🇭🇰 Joel | hk｜香港 | 21
-      - 🇯🇵 Joel | JP｜日本 | 1
-      - 🇯🇵 Joel | JP｜日本 | 2
-      - 🇯🇵 Joel | JP｜日本 | 3
-      - 🇯🇵 Joel | JP｜日本 | 4
-      - 🇯🇵 Joel | JP｜日本 | 5
-      - 🇯🇵 Joel | JP｜日本 | 6
-      - 🇯🇵 Joel | JP｜日本 | 7
-      - 🇯🇵 Joel | JP｜日本 | 8
-      - 🇯🇵 Joel | JP｜日本 | 9
-      - 🇯🇵 Joel | JP｜日本 | 10
-      - 🇯🇵 Joel | JP｜日本 | 11
-      - 🇯🇵 Joel | JP｜日本 | 12
-      - 🇯🇵 Joel | JP｜日本 | 13
-      - 🇯🇵 Joel | JP｜日本 | 14
-      - 🇯🇵 Joel | JP｜日本 | 15
-      - 🇯🇵 Joel | JP｜日本 | 16
-      - 🇯🇵 Joel | JP｜日本 | 17
-      - 🇯🇵 Joel | JP｜日本 | 18
-      - 🇯🇵 Joel | JP｜日本 | 19
-      - 🇯🇵 Joel | JP｜日本 | 20
-      - 🇯🇵 Joel | JP｜日本 | 21
-      - 🇺🇸 Joel | US｜美国 | 1
-      - 🇺🇸 Joel | US｜美国 | 2
-      - 🇺🇸 Joel | US｜美国 | 3
-      - 🇺🇸 Joel | US｜美国 | 4
-      - 🇺🇸 Joel | US｜美国 | 5
-      - 🇺🇸 Joel | US｜美国 | 6
-      - 🇺🇸 Joel | US｜美国 | 7
-      - 🇺🇸 Joel | US｜美国 | 8
-      - 🇺🇸 Joel | US｜美国 | 9
-      - 🇺🇸 Joel | US｜美国 | 10
-      - 🇺🇸 Joel | US｜美国 | 11
-      - 🇺🇸 Joel | US｜美国 | 12
-      - 🇺🇸 Joel | US｜美国 | 13
-      - 🇺🇸 Joel | US｜美国 | 14
-      - 🇺🇸 Joel | US｜美国 | 15
-      - 🇺🇸 Joel | US｜美国 | 16
-      - 🇺🇸 Joel | US｜美国 | 17
-      - 🇺🇸 Joel | US｜美国 | 18
-      - 🇺🇸 Joel | US｜美国 | 19
-      - 🇺🇸 Joel | US｜美国 | 20
-      - 🇺🇸 Joel | US｜美国 | 21
-      - 🇩🇪 Joel | de｜德国 | 1
-      - 🇩🇪 Joel | de｜德国 | 2
-      - 🇩🇪 Joel | de｜德国 | 3
-      - 🇩🇪 Joel | de｜德国 | 4
-      - 🇩🇪 Joel | de｜德国 | 5
-      - 🇩🇪 Joel | de｜德国 | 6
-      - 🇩🇪 Joel | de｜德国 | 7
-      - 🇩🇪 Joel | de｜德国 | 8
-      - 🇩🇪 Joel | de｜德国 | 9
-      - 🇩🇪 Joel | de｜德国 | 10
-      - 🇩🇪 Joel | de｜德国 | 11
-      - 🇩🇪 Joel | de｜德国 | 12
-      - 🇩🇪 Joel | de｜德国 | 13
-      - 🇩🇪 Joel | de｜德国 | 14
-      - 🇩🇪 Joel | de｜德国 | 15
-      - 🇩🇪 Joel | de｜德国 | 16
-      - 🇩🇪 Joel | de｜德国 | 17
-      - 🇩🇪 Joel | de｜德国 | 18
-      - 🇩🇪 Joel | de｜德国 | 19
-      - 🇩🇪 Joel | de｜德国 | 20
-      - 🇩🇪 Joel | de｜德国 | 21
-      - 🇨🇳 Joel | tw｜台湾 | 1
-      - 🇨🇳 Joel | tw｜台湾 | 2
-      - 🇨🇳 Joel | tw｜台湾 | 3
-      - 🇨🇳 Joel | tw｜台湾 | 4
-      - 🇨🇳 Joel | tw｜台湾 | 5
-      - 🇨🇳 Joel | tw｜台湾 | 6
-      - 🇨🇳 Joel | tw｜台湾 | 7
-      - 🇨🇳 Joel | tw｜中华民国 | 1
-      - 🇨🇳 Joel | tw｜中华民国 | 2
-      - 🇨🇳 Joel | tw｜中华民国 | 3
-      - 🇨🇳 Joel | tw｜中华民国 | 4
-      - 🇨🇳 Joel | tw｜中华民国 | 5
-      - 🇨🇳 Joel | tw｜中华民国 | 6
-      - 🇨🇳 Joel | tw｜中华民国 | 7
-      - 🇨🇳 Joel | tw｜中华民国 | 8
-      - 🇨🇳 Joel | tw｜中华民国 | 9
-      - 🇨🇳 Joel | tw｜中华民国 | 10
-      - 🇨🇳 Joel | tw｜中华民国 | 11
-      - 🇨🇳 Joel | tw｜中华民国 | 12
-      - 🇨🇳 Joel | tw｜中华民国 | 13
-      - 🇨🇳 Joel | tw｜中华民国 | 14
-      - 🇨🇳 Joel | tw｜中华民国 | 15
-      - 🇨🇳 Joel | tw｜中华民国 | 16
-      - 🇨🇳 Joel | tw｜中华民国 | 17
-      - 🇨🇳 Joel | tw｜中华民国 | 18
-      - 🇨🇳 Joel | tw｜中华民国 | 19
-      - 🇨🇳 Joel | tw｜中华民国 | 20
-      - 🇨🇳 Joel | tw｜中华民国 | 21
-  - name: 🎈 Failover
-    type: fallback
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - 🇭🇰 Joel | hk｜香港 | 1
-      - 🇭🇰 Joel | hk｜香港 | 2
-      - 🇭🇰 Joel | hk｜香港 | 3
-      - 🇭🇰 Joel | hk｜香港 | 4
-      - 🇭🇰 Joel | hk｜香港 | 5
-      - 🇭🇰 Joel | hk｜香港 | 6
-      - 🇭🇰 Joel | hk｜香港 | 7
-      - 🇭🇰 Joel | hk｜香港 | 8
-      - 🇭🇰 Joel | hk｜香港 | 9
-      - 🇭🇰 Joel | hk｜香港 | 10
-      - 🇭🇰 Joel | hk｜香港 | 11
-      - 🇭🇰 Joel | hk｜香港 | 12
-      - 🇭🇰 Joel | hk｜香港 | 13
-      - 🇭🇰 Joel | hk｜香港 | 14
-      - 🇭🇰 Joel | hk｜香港 | 15
-      - 🇭🇰 Joel | hk｜香港 | 16
-      - 🇭🇰 Joel | hk｜香港 | 17
-      - 🇭🇰 Joel | hk｜香港 | 18
-      - 🇭🇰 Joel | hk｜香港 | 19
-      - 🇭🇰 Joel | hk｜香港 | 20
-      - 🇭🇰 Joel | hk｜香港 | 21
-      - 🇯🇵 Joel | JP｜日本 | 1
-      - 🇯🇵 Joel | JP｜日本 | 2
-      - 🇯🇵 Joel | JP｜日本 | 3
-      - 🇯🇵 Joel | JP｜日本 | 4
-      - 🇯🇵 Joel | JP｜日本 | 5
-      - 🇯🇵 Joel | JP｜日本 | 6
-      - 🇯🇵 Joel | JP｜日本 | 7
-      - 🇯🇵 Joel | JP｜日本 | 8
-      - 🇯🇵 Joel | JP｜日本 | 9
-      - 🇯🇵 Joel | JP｜日本 | 10
-      - 🇯🇵 Joel | JP｜日本 | 11
-      - 🇯🇵 Joel | JP｜日本 | 12
-      - 🇯🇵 Joel | JP｜日本 | 13
-      - 🇯🇵 Joel | JP｜日本 | 14
-      - 🇯🇵 Joel | JP｜日本 | 15
-      - 🇯🇵 Joel | JP｜日本 | 16
-      - 🇯🇵 Joel | JP｜日本 | 17
-      - 🇯🇵 Joel | JP｜日本 | 18
-      - 🇯🇵 Joel | JP｜日本 | 19
-      - 🇯🇵 Joel | JP｜日本 | 20
-      - 🇯🇵 Joel | JP｜日本 | 21
-      - 🇺🇸 Joel | US｜美国 | 1
-      - 🇺🇸 Joel | US｜美国 | 2
-      - 🇺🇸 Joel | US｜美国 | 3
-      - 🇺🇸 Joel | US｜美国 | 4
-      - 🇺🇸 Joel | US｜美国 | 5
-      - 🇺🇸 Joel | US｜美国 | 6
-      - 🇺🇸 Joel | US｜美国 | 7
-      - 🇺🇸 Joel | US｜美国 | 8
-      - 🇺🇸 Joel | US｜美国 | 9
-      - 🇺🇸 Joel | US｜美国 | 10
-      - 🇺🇸 Joel | US｜美国 | 11
-      - 🇺🇸 Joel | US｜美国 | 12
-      - 🇺🇸 Joel | US｜美国 | 13
-      - 🇺🇸 Joel | US｜美国 | 14
-      - 🇺🇸 Joel | US｜美国 | 15
-      - 🇺🇸 Joel | US｜美国 | 16
-      - 🇺🇸 Joel | US｜美国 | 17
-      - 🇺🇸 Joel | US｜美国 | 18
-      - 🇺🇸 Joel | US｜美国 | 19
-      - 🇺🇸 Joel | US｜美国 | 20
-      - 🇺🇸 Joel | US｜美国 | 21
-      - 🇩🇪 Joel | de｜德国 | 1
-      - 🇩🇪 Joel | de｜德国 | 2
-      - 🇩🇪 Joel | de｜德国 | 3
-      - 🇩🇪 Joel | de｜德国 | 4
-      - 🇩🇪 Joel | de｜德国 | 5
-      - 🇩🇪 Joel | de｜德国 | 6
-      - 🇩🇪 Joel | de｜德国 | 7
-      - 🇩🇪 Joel | de｜德国 | 8
-      - 🇩🇪 Joel | de｜德国 | 9
-      - 🇩🇪 Joel | de｜德国 | 10
-      - 🇩🇪 Joel | de｜德国 | 11
-      - 🇩🇪 Joel | de｜德国 | 12
-      - 🇩🇪 Joel | de｜德国 | 13
-      - 🇩🇪 Joel | de｜德国 | 14
-      - 🇩🇪 Joel | de｜德国 | 15
-      - 🇩🇪 Joel | de｜德国 | 16
-      - 🇩🇪 Joel | de｜德国 | 17
-      - 🇩🇪 Joel | de｜德国 | 18
-      - 🇩🇪 Joel | de｜德国 | 19
-      - 🇩🇪 Joel | de｜德国 | 20
-      - 🇩🇪 Joel | de｜德国 | 21
-      - 🇨🇳 Joel | tw｜台湾 | 1
-      - 🇨🇳 Joel | tw｜台湾 | 2
-      - 🇨🇳 Joel | tw｜台湾 | 3
-      - 🇨🇳 Joel | tw｜台湾 | 4
-      - 🇨🇳 Joel | tw｜台湾 | 5
-      - 🇨🇳 Joel | tw｜台湾 | 6
-      - 🇨🇳 Joel | tw｜台湾 | 7
-      - 🇨🇳 Joel | tw｜中华民国 | 1
-      - 🇨🇳 Joel | tw｜中华民国 | 2
-      - 🇨🇳 Joel | tw｜中华民国 | 3
-      - 🇨🇳 Joel | tw｜中华民国 | 4
-      - 🇨🇳 Joel | tw｜中华民国 | 5
-      - 🇨🇳 Joel | tw｜中华民国 | 6
-      - 🇨🇳 Joel | tw｜中华民国 | 7
-      - 🇨🇳 Joel | tw｜中华民国 | 8
-      - 🇨🇳 Joel | tw｜中华民国 | 9
-      - 🇨🇳 Joel | tw｜中华民国 | 10
-      - 🇨🇳 Joel | tw｜中华民国 | 11
-      - 🇨🇳 Joel | tw｜中华民国 | 12
-      - 🇨🇳 Joel | tw｜中华民国 | 13
-      - 🇨🇳 Joel | tw｜中华民国 | 14
-      - 🇨🇳 Joel | tw｜中华民国 | 15
-      - 🇨🇳 Joel | tw｜中华民国 | 16
-      - 🇨🇳 Joel | tw｜中华民国 | 17
-      - 🇨🇳 Joel | tw｜中华民国 | 18
-      - 🇨🇳 Joel | tw｜中华民国 | 19
-      - 🇨🇳 Joel | tw｜中华民国 | 20
-      - 🇨🇳 Joel | tw｜中华民国 | 21
-  - name: 🔰 SSR节点选择
-    type: url-test
-    url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
-    proxies:
-      - REJECT
+      - Joel_01
+      - Joel_02
+      - Joel_03
+      - Joel_04
+      - Joel_05
+      - Joel_06
+      - Joel_07
+      - Joel_08
+      - Joel_09
+      - Joel_10
+      - Joel_11
+      - Joel_12
+      - Joel_13
+      - Joel_14
+      - Joel_15
+      - Joel_16
+      - Joel_17
+      - Joel_18
+      - Joel_19
+      - Joel_20
+      - Joel_21
+      - Joel_22
+      - Joel_23
+      - Joel_24
+      - Joel_25
+      - Joel_26
+      - Joel_27
+      - Joel_28
+      - Joel_29
+      - Joel_30
+      - Joel_31
+      - Joel_32
+      - Joel_33
+      - Joel_34
+      - Joel_35
+      - Joel_36
+      - Joel_37
+      - Joel_38
+      - Joel_39
+      - Joel_40
+      - Joel_41
+      - Joel_42
+      - Joel_43
+      - Joel_44
+      - Joel_45
+      - Joel_46
+      - Joel_47
+      - Joel_48
+      - Joel_49
+      - Joel_50
+      - Joel_51
+      - Joel_52
+      - Joel_53
+      - Joel_54
+      - Joel_55
+      - Joel_56
+      - Joel_57
+      - Joel_58
+      - Joel_59
+      - Joel_60
+      - Joel_61
+      - Joel_62
+      - Joel_63
+      - Joel_64
+      - Joel_65
+      - Joel_66
+      - Joel_67
+      - Joel_68
+      - Joel_69
+      - Joel_70
+      - Joel_71
+      - Joel_72
+      - Joel_73
+      - Joel_74
+      - Joel_75
+      - Joel_76
+      - Joel_77
+      - Joel_78
+      - Joel_79
+      - Joel_80
+      - Joel_81
+      - Joel_82
+      - Joel_83
+      - Joel_84
+      - Joel_85
+      - Joel_86
+      - Joel_87
+      - Joel_88
+      - Joel_89
+      - Joel_90
+      - Joel_91
+      - Joel_92
+      - Joel_93
+      - Joel_94
+      - Joel_95
+      - Joel_96
+      - Joel_97
+      - Joel_98
+      - Joel_99
+      - Joel_100
+      - Joel_101
+      - Joel_102
+      - Joel_103
+      - Joel_104
+      - Joel_105
+      - Joel_106
+      - Joel_107
+      - Joel_108
+      - Joel_109
+      - Joel_110
+      - Joel_111
+      - Joel_112
+
 rules:
-  - DOMAIN-SUFFIX,digicert.com,❤️ Joel
-  - DOMAIN,ocsp.comodoca.com,❤️ Joel
-  - DOMAIN,ocsp.usertrust.com,❤️ Joel
-  - DOMAIN,ocsp.sectigo.com,❤️ Joel
-  - DOMAIN,ocsp.verisign.net,❤️ Joel
-  - DOMAIN-KEYWORD,linkedin,❤️ Joel
-  - DOMAIN-SUFFIX,1password.com,❤️ Joel
-  - DOMAIN-SUFFIX,adguard.org,❤️ Joel
-  - DOMAIN-SUFFIX,bit.no.com,❤️ Joel
-  - DOMAIN-SUFFIX,btlibrary.me,❤️ Joel
-  - DOMAIN-SUFFIX,cccat.io,❤️ Joel
-  - DOMAIN-SUFFIX,cloudcone.com,❤️ Joel
-  - DOMAIN-SUFFIX,dubox.com,❤️ Joel
-  - DOMAIN-SUFFIX,gameloft.com,❤️ Joel
-  - DOMAIN-SUFFIX,garena.com,❤️ Joel
-  - DOMAIN-SUFFIX,hoyolab.com,❤️ Joel
-  - DOMAIN-SUFFIX,inoreader.com,❤️ Joel
-  - DOMAIN-SUFFIX,ip138.com,❤️ Joel
-  - DOMAIN-SUFFIX,myteamspeak.com,❤️ Joel
-  - DOMAIN-SUFFIX,notion.so,❤️ Joel
-  - DOMAIN-SUFFIX,ping.pe,❤️ Joel
-  - DOMAIN-SUFFIX,reddit.com,❤️ Joel
-  - DOMAIN-SUFFIX,teddysun.com,❤️ Joel
-  - DOMAIN-SUFFIX,tumbex.com,❤️ Joel
-  - DOMAIN-SUFFIX,twdvd.com,❤️ Joel
-  - DOMAIN-SUFFIX,unsplash.com,❤️ Joel
-  - DOMAIN-SUFFIX,eu,❤️ Joel
-  - DOMAIN-SUFFIX,hk,❤️ Joel
-  - DOMAIN-SUFFIX,jp,❤️ Joel
-  - DOMAIN-SUFFIX,kr,❤️ Joel
-  - DOMAIN-SUFFIX,sg,❤️ Joel
-  - DOMAIN-SUFFIX,tw,❤️ Joel
-  - DOMAIN-SUFFIX,uk,❤️ Joel
-  - DOMAIN-SUFFIX,us,❤️ Joel
-  - DOMAIN-KEYWORD,1e100,❤️ Joel
-  - DOMAIN-KEYWORD,abema,❤️ Joel
-  - DOMAIN-KEYWORD,appledaily,❤️ Joel
-  - DOMAIN-KEYWORD,avtb,❤️ Joel
-  - DOMAIN-KEYWORD,beetalk,❤️ Joel
-  - DOMAIN-KEYWORD,blogspot,❤️ Joel
-  - DOMAIN-KEYWORD,dropbox,❤️ Joel
-  - DOMAIN-KEYWORD,facebook,❤️ Joel
-  - DOMAIN-KEYWORD,fbcdn,❤️ Joel
-  - DOMAIN-KEYWORD,github,❤️ Joel
-  - DOMAIN-KEYWORD,gmail,❤️ Joel
-  - DOMAIN-KEYWORD,google,❤️ Joel
-  - DOMAIN-KEYWORD,instagram,❤️ Joel
-  - DOMAIN-KEYWORD,porn,❤️ Joel
-  - DOMAIN-KEYWORD,sci-hub,❤️ Joel
-  - DOMAIN-KEYWORD,spotify,❤️ Joel
-  - DOMAIN-KEYWORD,telegram,❤️ Joel
-  - DOMAIN-KEYWORD,twitter,❤️ Joel
-  - DOMAIN-KEYWORD,whatsapp,❤️ Joel
-  - DOMAIN-KEYWORD,youtube,❤️ Joel
-  - DOMAIN-SUFFIX,4sqi.net,❤️ Joel
-  - DOMAIN-SUFFIX,a248.e.akamai.net,❤️ Joel
-  - DOMAIN-SUFFIX,adobedtm.com,❤️ Joel
-  - DOMAIN-SUFFIX,ampproject.org,❤️ Joel
-  - DOMAIN-SUFFIX,android.com,❤️ Joel
-  - DOMAIN-SUFFIX,aolcdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,apkmirror.com,❤️ Joel
-  - DOMAIN-SUFFIX,apkpure.com,❤️ Joel
-  - DOMAIN-SUFFIX,app-measurement.com,❤️ Joel
-  - DOMAIN-SUFFIX,appspot.com,❤️ Joel
-  - DOMAIN-SUFFIX,archive.org,❤️ Joel
-  - DOMAIN-SUFFIX,armorgames.com,❤️ Joel
-  - DOMAIN-SUFFIX,aspnetcdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,awsstatic.com,❤️ Joel
-  - DOMAIN-SUFFIX,azureedge.net,❤️ Joel
-  - DOMAIN-SUFFIX,azurewebsites.net,❤️ Joel
-  - DOMAIN-SUFFIX,bandwagonhost.com\,❤️ Joel
-  - DOMAIN-SUFFIX,bkrtx.com,❤️ Joel
-  - DOMAIN-SUFFIX,blogcdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,blogger.com,❤️ Joel
-  - DOMAIN-SUFFIX,blogsmithmedia.com,❤️ Joel
-  - DOMAIN-SUFFIX,blogspot.com,❤️ Joel
-  - DOMAIN-SUFFIX,blogspot.hk,❤️ Joel
-  - DOMAIN-SUFFIX,blogspot.jp,❤️ Joel
-  - DOMAIN-SUFFIX,bloomberg.cn,❤️ Joel
-  - DOMAIN-SUFFIX,bloomberg.com,❤️ Joel
-  - DOMAIN-SUFFIX,box.com,❤️ Joel
-  - DOMAIN-SUFFIX,cachefly.net,❤️ Joel
-  - DOMAIN-SUFFIX,cdnst.net,❤️ Joel
-  - DOMAIN-SUFFIX,cloudfront.net,❤️ Joel
-  - DOMAIN-SUFFIX,daum.net,❤️ Joel
-  - DOMAIN-SUFFIX,demdex.net,❤️ Joel
-  - DOMAIN-SUFFIX,deskconnect.com,❤️ Joel
-  - DOMAIN-SUFFIX,disqus.com,❤️ Joel
-  - DOMAIN-SUFFIX,disquscdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,dropbox.com,❤️ Joel
-  - DOMAIN-SUFFIX,dropboxapi.com,❤️ Joel
-  - DOMAIN-SUFFIX,dropboxstatic.com,❤️ Joel
-  - DOMAIN-SUFFIX,dropboxusercontent.com,❤️ Joel
-  - DOMAIN-SUFFIX,duckduckgo.com,❤️ Joel
-  - DOMAIN-SUFFIX,edgecastcdn.net,❤️ Joel
-  - DOMAIN-SUFFIX,edgekey.net,❤️ Joel
-  - DOMAIN-SUFFIX,edgesuite.net,❤️ Joel
-  - DOMAIN-SUFFIX,eurekavpt.com,❤️ Joel
-  - DOMAIN-SUFFIX,fastmail.com,❤️ Joel
-  - DOMAIN-SUFFIX,firebaseio.com,❤️ Joel
-  - DOMAIN-SUFFIX,flickr.com,❤️ Joel
-  - DOMAIN-SUFFIX,flipboard.com,❤️ Joel
-  - DOMAIN-SUFFIX,gfx.ms,❤️ Joel
-  - DOMAIN-SUFFIX,gongm.in,❤️ Joel
-  - DOMAIN-SUFFIX,hulu.com,❤️ Joel
-  - DOMAIN-SUFFIX,id.heroku.com,❤️ Joel
-  - DOMAIN-SUFFIX,io.io,❤️ Joel
-  - DOMAIN-SUFFIX,issuu.com,❤️ Joel
-  - DOMAIN-SUFFIX,ixquick.com,❤️ Joel
-  - DOMAIN-SUFFIX,jtvnw.net,❤️ Joel
-  - DOMAIN-SUFFIX,kat.cr,❤️ Joel
-  - DOMAIN-SUFFIX,kik.com,❤️ Joel
-  - DOMAIN-SUFFIX,kobo.com,❤️ Joel
-  - DOMAIN-SUFFIX,kobobooks.com,❤️ Joel
-  - DOMAIN-SUFFIX,livefilestore.com,❤️ Joel
-  - DOMAIN-SUFFIX,llnwd.net,❤️ Joel
-  - DOMAIN-SUFFIX,macrumors.com,❤️ Joel
-  - DOMAIN-SUFFIX,medium.com,❤️ Joel
-  - DOMAIN-SUFFIX,mega.nz,❤️ Joel
-  - DOMAIN-SUFFIX,megaupload.com,❤️ Joel
-  - DOMAIN-SUFFIX,messenger.com,❤️ Joel
-  - DOMAIN-SUFFIX,netdna-cdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,nintendo.net,❤️ Joel
-  - DOMAIN-SUFFIX,nsstatic.net,❤️ Joel
-  - DOMAIN-SUFFIX,nytstyle.com,❤️ Joel
-  - DOMAIN-SUFFIX,overcast.fm,❤️ Joel
-  - DOMAIN-SUFFIX,periscope.tv,❤️ Joel
-  - DOMAIN-SUFFIX,pinimg.com,❤️ Joel
-  - DOMAIN-SUFFIX,pinterest.com,❤️ Joel
-  - DOMAIN-SUFFIX,potato.im,❤️ Joel
-  - DOMAIN-SUFFIX,prfct.co,❤️ Joel
-  - DOMAIN-SUFFIX,pscp.tv,❤️ Joel
-  - DOMAIN-SUFFIX,quora.com,❤️ Joel
-  - DOMAIN-SUFFIX,resilio.com,❤️ Joel
-  - DOMAIN-SUFFIX,sfx.ms,❤️ Joel
-  - DOMAIN-SUFFIX,slack-edge.com,❤️ Joel
-  - DOMAIN-SUFFIX,smartdnsproxy.com,❤️ Joel
-  - DOMAIN-SUFFIX,sndcdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,soundcloud.com,❤️ Joel
-  - DOMAIN-SUFFIX,startpage.com,❤️ Joel
-  - DOMAIN-SUFFIX,staticflickr.com,❤️ Joel
-  - DOMAIN-SUFFIX,symauth.com,❤️ Joel
-  - DOMAIN-SUFFIX,symcb.com,❤️ Joel
-  - DOMAIN-SUFFIX,symcd.com,❤️ Joel
-  - DOMAIN-SUFFIX,textnow.com,❤️ Joel
-  - DOMAIN-SUFFIX,textnow.me,❤️ Joel
-  - DOMAIN-SUFFIX,thefacebook.com,❤️ Joel
-  - DOMAIN-SUFFIX,thepiratebay.org,❤️ Joel
-  - DOMAIN-SUFFIX,torproject.org,❤️ Joel
-  - DOMAIN-SUFFIX,trustasiassl.com,❤️ Joel
-  - DOMAIN-SUFFIX,tumblr.co,❤️ Joel
-  - DOMAIN-SUFFIX,tumblr.com,❤️ Joel
-  - DOMAIN-SUFFIX,tvb.com,❤️ Joel
-  - DOMAIN-SUFFIX,txmblr.com,❤️ Joel
-  - DOMAIN-SUFFIX,v2ex.com,❤️ Joel
-  - DOMAIN-SUFFIX,vimeo.com,❤️ Joel
-  - DOMAIN-SUFFIX,vine.co,❤️ Joel
-  - DOMAIN-SUFFIX,vox-cdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,amazon.co.jp,❤️ Joel
-  - DOMAIN-SUFFIX,amazon.com,❤️ Joel
-  - DOMAIN-SUFFIX,amazonaws.com,❤️ Joel
-  - IP-CIDR,13.32.0.0/15,❤️ Joel,no-resolve
-  - IP-CIDR,13.35.0.0/17,❤️ Joel,no-resolve
-  - IP-CIDR,18.184.0.0/15,❤️ Joel,no-resolve
-  - IP-CIDR,18.194.0.0/15,❤️ Joel,no-resolve
-  - IP-CIDR,18.208.0.0/13,❤️ Joel,no-resolve
-  - IP-CIDR,18.232.0.0/14,❤️ Joel,no-resolve
-  - IP-CIDR,52.58.0.0/15,❤️ Joel,no-resolve
-  - IP-CIDR,52.74.0.0/16,❤️ Joel,no-resolve
-  - IP-CIDR,52.77.0.0/16,❤️ Joel,no-resolve
-  - IP-CIDR,52.84.0.0/15,❤️ Joel,no-resolve
-  - IP-CIDR,52.200.0.0/13,❤️ Joel,no-resolve
-  - IP-CIDR,54.93.0.0/16,❤️ Joel,no-resolve
-  - IP-CIDR,54.156.0.0/14,❤️ Joel,no-resolve
-  - IP-CIDR,54.226.0.0/15,❤️ Joel,no-resolve
-  - IP-CIDR,54.230.156.0/22,❤️ Joel,no-resolve
-  - DOMAIN-KEYWORD,uk-live,❤️ Joel
-  - DOMAIN-SUFFIX,bbc.co,❤️ Joel
-  - DOMAIN-SUFFIX,bbc.com,❤️ Joel
-  - DOMAIN-SUFFIX,discord.co,❤️ Joel
-  - DOMAIN-SUFFIX,discord.com,❤️ Joel
-  - DOMAIN-SUFFIX,discord.gg,❤️ Joel
-  - DOMAIN-SUFFIX,discord.media,❤️ Joel
-  - DOMAIN-SUFFIX,discordapp.com,❤️ Joel
-  - DOMAIN-SUFFIX,discordapp.net,❤️ Joel
-  - DOMAIN-SUFFIX,facebook.com,❤️ Joel
-  - DOMAIN-SUFFIX,fb.com,❤️ Joel
-  - DOMAIN-SUFFIX,fb.me,❤️ Joel
-  - DOMAIN-SUFFIX,fbcdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,fbcdn.net,❤️ Joel
-  - IP-CIDR,31.13.24.0/21,❤️ Joel,no-resolve
-  - IP-CIDR,31.13.64.0/18,❤️ Joel,no-resolve
-  - IP-CIDR,45.64.40.0/22,❤️ Joel,no-resolve
-  - IP-CIDR,66.220.144.0/20,❤️ Joel,no-resolve
-  - IP-CIDR,69.63.176.0/20,❤️ Joel,no-resolve
-  - IP-CIDR,69.171.224.0/19,❤️ Joel,no-resolve
-  - IP-CIDR,74.119.76.0/22,❤️ Joel,no-resolve
-  - IP-CIDR,103.4.96.0/22,❤️ Joel,no-resolve
-  - IP-CIDR,129.134.0.0/17,❤️ Joel,no-resolve
-  - IP-CIDR,157.240.0.0/17,❤️ Joel,no-resolve
-  - IP-CIDR,173.252.64.0/18,❤️ Joel,no-resolve
-  - IP-CIDR,179.60.192.0/22,❤️ Joel,no-resolve
-  - IP-CIDR,185.60.216.0/22,❤️ Joel,no-resolve
-  - IP-CIDR,204.15.20.0/22,❤️ Joel,no-resolve
-  - DOMAIN-SUFFIX,github.com,❤️ Joel
-  - DOMAIN-SUFFIX,github.io,❤️ Joel
-  - DOMAIN-SUFFIX,githubapp.com,❤️ Joel
-  - DOMAIN-SUFFIX,githubassets.com,❤️ Joel
-  - DOMAIN-SUFFIX,githubusercontent.com,❤️ Joel
-  - DOMAIN-SUFFIX,1e100.net,❤️ Joel
-  - DOMAIN-SUFFIX,2mdn.net,❤️ Joel
-  - DOMAIN-SUFFIX,app-measurement.net,❤️ Joel
-  - DOMAIN-SUFFIX,g.co,❤️ Joel
-  - DOMAIN-SUFFIX,ggpht.com,❤️ Joel
-  - DOMAIN-SUFFIX,goo.gl,❤️ Joel
-  - DOMAIN-SUFFIX,googleapis.cn,❤️ Joel
-  - DOMAIN-SUFFIX,googleapis.com,❤️ Joel
-  - DOMAIN-SUFFIX,gstatic.cn,❤️ Joel
-  - DOMAIN-SUFFIX,gstatic.com,❤️ Joel
-  - DOMAIN-SUFFIX,gvt0.com,❤️ Joel
-  - DOMAIN-SUFFIX,gvt1.com,❤️ Joel
-  - DOMAIN-SUFFIX,gvt2.com,❤️ Joel
-  - DOMAIN-SUFFIX,gvt3.com,❤️ Joel
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,❤️ Joel
-  - DOMAIN-SUFFIX,youtu.be,❤️ Joel
-  - DOMAIN-SUFFIX,youtube-nocookie.com,❤️ Joel
-  - DOMAIN-SUFFIX,youtube.com,❤️ Joel
-  - DOMAIN-SUFFIX,yt.be,❤️ Joel
-  - DOMAIN-SUFFIX,ytimg.com,❤️ Joel
-  - IP-CIDR,74.125.0.0/16,❤️ Joel,no-resolve
-  - IP-CIDR,173.194.0.0/16,❤️ Joel,no-resolve
-  - IP-CIDR,120.232.181.162/32,❤️ Joel,no-resolve
-  - IP-CIDR,120.241.147.226/32,❤️ Joel,no-resolve
-  - IP-CIDR,120.253.253.226/32,❤️ Joel,no-resolve
-  - IP-CIDR,120.253.255.162/32,❤️ Joel,no-resolve
-  - IP-CIDR,120.253.255.34/32,❤️ Joel,no-resolve
-  - IP-CIDR,120.253.255.98/32,❤️ Joel,no-resolve
-  - IP-CIDR,180.163.150.162/32,❤️ Joel,no-resolve
-  - IP-CIDR,180.163.150.34/32,❤️ Joel,no-resolve
-  - IP-CIDR,180.163.151.162/32,❤️ Joel,no-resolve
-  - IP-CIDR,180.163.151.34/32,❤️ Joel,no-resolve
-  - IP-CIDR,203.208.39.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,203.208.40.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,203.208.41.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,203.208.43.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,203.208.50.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,220.181.174.162/32,❤️ Joel,no-resolve
-  - IP-CIDR,220.181.174.226/32,❤️ Joel,no-resolve
-  - IP-CIDR,220.181.174.34/32,❤️ Joel,no-resolve
-  - DOMAIN-SUFFIX,cdninstagram.com,❤️ Joel
-  - DOMAIN-SUFFIX,instagram.com,❤️ Joel
-  - DOMAIN-SUFFIX,instagr.am,❤️ Joel
-  - DOMAIN-SUFFIX,kakao.com,❤️ Joel
-  - DOMAIN-SUFFIX,kakao.co.kr,❤️ Joel
-  - DOMAIN-SUFFIX,kakaocdn.net,❤️ Joel
-  - IP-CIDR,1.201.0.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,27.0.236.0/22,❤️ Joel,no-resolve
-  - IP-CIDR,103.27.148.0/22,❤️ Joel,no-resolve
-  - IP-CIDR,103.246.56.0/22,❤️ Joel,no-resolve
-  - IP-CIDR,110.76.140.0/22,❤️ Joel,no-resolve
-  - IP-CIDR,113.61.104.0/22,❤️ Joel,no-resolve
-  - DOMAIN-SUFFIX,lin.ee,❤️ Joel
-  - DOMAIN-SUFFIX,line-apps.com,❤️ Joel
-  - DOMAIN-SUFFIX,line-cdn.net,❤️ Joel
-  - DOMAIN-SUFFIX,line-scdn.net,❤️ Joel
-  - DOMAIN-SUFFIX,line.me,❤️ Joel
-  - DOMAIN-SUFFIX,line.naver.jp,❤️ Joel
-  - DOMAIN-SUFFIX,nhncorp.jp,❤️ Joel
-  - IP-CIDR,103.2.28.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,103.2.30.0/23,❤️ Joel,no-resolve
-  - IP-CIDR,119.235.224.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,119.235.232.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,119.235.235.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,119.235.236.0/23,❤️ Joel,no-resolve
-  - IP-CIDR,147.92.128.0/17,❤️ Joel,no-resolve
-  - IP-CIDR,203.104.128.0/19,❤️ Joel,no-resolve
-  - DOMAIN-KEYWORD,1drv,❤️ Joel
-  - DOMAIN-KEYWORD,onedrive,❤️ Joel
-  - DOMAIN-KEYWORD,skydrive,❤️ Joel
-  - DOMAIN-SUFFIX,livefilestore.com,❤️ Joel
-  - DOMAIN-SUFFIX,oneclient.sfx.ms,❤️ Joel
-  - DOMAIN-SUFFIX,onedrive.com,❤️ Joel
-  - DOMAIN-SUFFIX,onedrive.live.com,❤️ Joel
-  - DOMAIN-SUFFIX,photos.live.com,❤️ Joel
-  - DOMAIN-SUFFIX,skydrive.wns.windows.com,❤️ Joel
-  - DOMAIN-SUFFIX,spoprod-a.akamaihd.net,❤️ Joel
-  - DOMAIN-SUFFIX,storage.live.com,❤️ Joel
-  - DOMAIN-SUFFIX,storage.msn.com,❤️ Joel
-  - DOMAIN-KEYWORD,porn,❤️ Joel
-  - DOMAIN-SUFFIX,8teenxxx.com,❤️ Joel
-  - DOMAIN-SUFFIX,ahcdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,bcvcdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,bongacams.com,❤️ Joel
-  - DOMAIN-SUFFIX,chaturbate.com,❤️ Joel
-  - DOMAIN-SUFFIX,dditscdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,livejasmin.com,❤️ Joel
-  - DOMAIN-SUFFIX,phncdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,phprcdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,pornhub.com,❤️ Joel
-  - DOMAIN-SUFFIX,pornhubpremium.com,❤️ Joel
-  - DOMAIN-SUFFIX,rdtcdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,redtube.com,❤️ Joel
-  - DOMAIN-SUFFIX,sb-cd.com,❤️ Joel
-  - DOMAIN-SUFFIX,spankbang.com,❤️ Joel
-  - DOMAIN-SUFFIX,t66y.com,❤️ Joel
-  - DOMAIN-SUFFIX,xhamster.com,❤️ Joel
-  - DOMAIN-SUFFIX,xnxx-cdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,xnxx.com,❤️ Joel
-  - DOMAIN-SUFFIX,xvideos-cdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,xvideos.com,❤️ Joel
-  - DOMAIN-SUFFIX,ypncdn.com,❤️ Joel
-  - DOMAIN-SUFFIX,pixiv.net,❤️ Joel
-  - DOMAIN-SUFFIX,pximg.net,❤️ Joel
-  - DOMAIN-SUFFIX,amplitude.com,❤️ Joel
-  - DOMAIN-SUFFIX,firebaseio.com,❤️ Joel
-  - DOMAIN-SUFFIX,hockeyapp.net,❤️ Joel
-  - DOMAIN-SUFFIX,readdle.com,❤️ Joel
-  - DOMAIN-SUFFIX,smartmailcloud.com,❤️ Joel
-  - DOMAIN-SUFFIX,fanatical.com,❤️ Joel
-  - DOMAIN-SUFFIX,humblebundle.com,❤️ Joel
-  - DOMAIN-SUFFIX,steamcommunity.com,❤️ Joel
-  - DOMAIN-SUFFIX,tap.io,❤️ Joel
-  - DOMAIN-SUFFIX,taptap.tw,❤️ Joel
-  - DOMAIN-SUFFIX,twitch.tv,❤️ Joel
-  - DOMAIN-SUFFIX,ttvnw.net,❤️ Joel
-  - DOMAIN-SUFFIX,jtvnw.net,❤️ Joel
-  - DOMAIN-KEYWORD,ttvnw,❤️ Joel
-  - DOMAIN-SUFFIX,t.co,❤️ Joel
-  - DOMAIN-SUFFIX,twimg.co,❤️ Joel
-  - DOMAIN-SUFFIX,twimg.com,❤️ Joel
-  - DOMAIN-SUFFIX,twimg.org,❤️ Joel
-  - DOMAIN-SUFFIX,t.me,❤️ Joel
-  - DOMAIN-SUFFIX,tdesktop.com,❤️ Joel
-  - DOMAIN-SUFFIX,telegra.ph,❤️ Joel
-  - DOMAIN-SUFFIX,telegram.me,❤️ Joel
-  - DOMAIN-SUFFIX,telegram.org,❤️ Joel
-  - DOMAIN-SUFFIX,telesco.pe,❤️ Joel
-  - IP-CIDR,91.108.0.0/16,❤️ Joel,no-resolve
-  - IP-CIDR,109.239.140.0/24,❤️ Joel,no-resolve
-  - IP-CIDR,149.154.160.0/20,❤️ Joel,no-resolve
-  - IP-CIDR6,2001:67c:4e8::/48,❤️ Joel,no-resolve
-  - IP-CIDR6,2001:b28:f23d::/48,❤️ Joel,no-resolve
-  - IP-CIDR6,2001:b28:f23f::/48,❤️ Joel,no-resolve
-  - DOMAIN-SUFFIX,terabox.com,❤️ Joel
-  - DOMAIN-SUFFIX,teraboxcdn.com,❤️ Joel
-  - IP-CIDR,18.194.0.0/15,❤️ Joel,no-resolve
-  - IP-CIDR,34.224.0.0/12,❤️ Joel,no-resolve
-  - IP-CIDR,54.242.0.0/15,❤️ Joel,no-resolve
-  - IP-CIDR,50.22.198.204/30,❤️ Joel,no-resolve
-  - IP-CIDR,208.43.122.128/27,❤️ Joel,no-resolve
-  - IP-CIDR,108.168.174.0/16,❤️ Joel,no-resolve
-  - IP-CIDR,173.192.231.32/27,❤️ Joel,no-resolve
-  - IP-CIDR,158.85.5.192/27,❤️ Joel,no-resolve
-  - IP-CIDR,174.37.243.0/16,❤️ Joel,no-resolve
-  - IP-CIDR,158.85.46.128/27,❤️ Joel,no-resolve
-  - IP-CIDR,173.192.222.160/27,❤️ Joel,no-resolve
-  - IP-CIDR,184.173.128.0/17,❤️ Joel,no-resolve
-  - IP-CIDR,158.85.224.160/27,❤️ Joel,no-resolve
-  - IP-CIDR,75.126.150.0/16,❤️ Joel,no-resolve
-  - IP-CIDR,69.171.235.0/16,❤️ Joel,no-resolve
-  - DOMAIN-SUFFIX,mediawiki.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikibooks.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikidata.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikileaks.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikimedia.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikinews.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikipedia.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikiquote.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikisource.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikiversity.org,❤️ Joel
-  - DOMAIN-SUFFIX,wikivoyage.org,❤️ Joel
-  - DOMAIN-SUFFIX,wiktionary.org,❤️ Joel
-  - DOMAIN-SUFFIX,neulion.com,❤️ Joel
-  - DOMAIN-SUFFIX,icntv.xyz,❤️ Joel
-  - DOMAIN-SUFFIX,flzbcdn.xyz,❤️ Joel
-  - DOMAIN-SUFFIX,ocnttv.com,❤️ Joel
-  - DOMAIN-SUFFIX,sub.221515.xyz,☁️ Domestic
-  - DOMAIN-SUFFIX,221515.xyz,☁️ Domestic
-  - DOMAIN-SUFFIX,hi.221616.xyz,☁️ Domestic
-  - DOMAIN-SUFFIX,sublink.221616.xyz,☁️ Domestic
-  - DOMAIN-SUFFIX,statics.teams.cdn.office.net,☁️ Domestic
-  - DOMAIN-SUFFIX,hi.moon365.workers.dev,☁️ Domestic
-  - DOMAIN-KEYWORD,officeapps.live.com,☁️ Domestic
-  - DOMAIN-KEYWORD,teams.skype.com,☁️ Domestic
-  - DOMAIN-KEYWORD,teams.live.com,☁️ Domestic
-  - DOMAIN-KEYWORD,cdn.live.net,☁️ Domestic
-  - DOMAIN-KEYWORD,outlook,☁️ Domestic
-  - PROCESS-NAME,aria2c.exe,☁️ Domestic
-  - PROCESS-NAME,fdm.exe,☁️ Domestic
-  - PROCESS-NAME,Folx.exe,☁️ Domestic
-  - PROCESS-NAME,NetTransport.exe,☁️ Domestic
-  - PROCESS-NAME,Thunder.exe,☁️ Domestic
-  - PROCESS-NAME,Transmission.exe,☁️ Domestic
-  - PROCESS-NAME,uTorrent.exe,☁️ Domestic
-  - PROCESS-NAME,WebTorrent.exe,☁️ Domestic
-  - PROCESS-NAME,WebTorrent Helper.exe,☁️ Domestic
-  - DOMAIN-SUFFIX,smtp,☁️ Domestic
-  - DOMAIN-KEYWORD,aria2,☁️ Domestic
-  - PROCESS-NAME,DownloadService.exe,☁️ Domestic
-  - PROCESS-NAME,Weiyun.exe,☁️ Domestic
-  - DOMAIN-SUFFIX,cn,☁️ Domestic
-  - DOMAIN-KEYWORD,-cn,☁️ Domestic
-  - DOMAIN-SUFFIX,baidu.com,☁️ Domestic
-  - DOMAIN-SUFFIX,baidubcr.com,☁️ Domestic
-  - DOMAIN-SUFFIX,bdstatic.com,☁️ Domestic
-  - DOMAIN-SUFFIX,yunjiasu-cdn.net,☁️ Domestic
-  - DOMAIN-SUFFIX,taobao.com,☁️ Domestic
-  - DOMAIN-SUFFIX,alicdn.com,☁️ Domestic
-  - DOMAIN,blzddist1-a.akamaihd.net,☁️ Domestic
-  - DOMAIN,cdn.angruo.com,☁️ Domestic
-  - DOMAIN,download.jetbrains.com,☁️ Domestic
-  - DOMAIN,file-igamecj.akamaized.net,☁️ Domestic
-  - DOMAIN,images-cn.ssl-images-amazon.com,☁️ Domestic
-  - DOMAIN,officecdn-microsoft-com.akamaized.net,☁️ Domestic
-  - DOMAIN,speedtest.macpaw.com,☁️ Domestic
-  - DOMAIN-SUFFIX,126.net,☁️ Domestic
-  - DOMAIN-SUFFIX,127.net,☁️ Domestic
-  - DOMAIN-SUFFIX,163.com,☁️ Domestic
-  - DOMAIN-SUFFIX,163yun.com,☁️ Domestic
-  - DOMAIN-SUFFIX,21cn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,343480.com,☁️ Domestic
-  - DOMAIN-SUFFIX,360buyimg.com,☁️ Domestic
-  - DOMAIN-SUFFIX,360in.com,☁️ Domestic
-  - DOMAIN-SUFFIX,51ym.me,☁️ Domestic
-  - DOMAIN-SUFFIX,71.am.com,☁️ Domestic
-  - DOMAIN-SUFFIX,8686c.com,☁️ Domestic
-  - DOMAIN-SUFFIX,abchina.com,☁️ Domestic
-  - DOMAIN-SUFFIX,accuweather.com,☁️ Domestic
-  - DOMAIN-SUFFIX,acgvideo.com,☁️ Domestic
-  - DOMAIN-SUFFIX,acm.org,☁️ Domestic
-  - DOMAIN-SUFFIX,acs.org,☁️ Domestic
-  - DOMAIN-SUFFIX,aicoinstorge.com,☁️ Domestic
-  - DOMAIN-SUFFIX,aip.org,☁️ Domestic
-  - DOMAIN-SUFFIX,air-matters.com,☁️ Domestic
-  - DOMAIN-SUFFIX,air-matters.io,☁️ Domestic
-  - DOMAIN-SUFFIX,aixifan.com,☁️ Domestic
-  - DOMAIN-SUFFIX,akadns.net,☁️ Domestic
-  - DOMAIN-SUFFIX,alibaba.com,☁️ Domestic
-  - DOMAIN-SUFFIX,alikunlun.com,☁️ Domestic
-  - DOMAIN-SUFFIX,alipay.com,☁️ Domestic
-  - DOMAIN-SUFFIX,amap.com,☁️ Domestic
-  - DOMAIN-SUFFIX,amd.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ams.org,☁️ Domestic
-  - DOMAIN-SUFFIX,animebytes.tv,☁️ Domestic
-  - DOMAIN-SUFFIX,annualreviews.org,☁️ Domestic
-  - DOMAIN-SUFFIX,aps.org,☁️ Domestic
-  - DOMAIN-SUFFIX,ascelibrary.org,☁️ Domestic
-  - DOMAIN-SUFFIX,asm.org,☁️ Domestic
-  - DOMAIN-SUFFIX,asme.org,☁️ Domestic
-  - DOMAIN-SUFFIX,astm.org,☁️ Domestic
-  - DOMAIN-SUFFIX,autonavi.com,☁️ Domestic
-  - DOMAIN-SUFFIX,awesome-hd.me,☁️ Domestic
-  - DOMAIN-SUFFIX,b612.net,☁️ Domestic
-  - DOMAIN-SUFFIX,baduziyuan.com,☁️ Domestic
-  - DOMAIN-SUFFIX,battle.net,☁️ Domestic
-  - DOMAIN-SUFFIX,bdatu.com,☁️ Domestic
-  - DOMAIN-SUFFIX,beitaichufang.com,☁️ Domestic
-  - DOMAIN-SUFFIX,biliapi.com,☁️ Domestic
-  - DOMAIN-SUFFIX,biliapi.net,☁️ Domestic
-  - DOMAIN-SUFFIX,bilibili.com,☁️ Domestic
-  - DOMAIN-SUFFIX,bilibili.tv,☁️ Domestic
-  - DOMAIN-SUFFIX,bjango.com,☁️ Domestic
-  - DOMAIN-SUFFIX,blizzard.com,☁️ Domestic
-  - DOMAIN-SUFFIX,bmj.com,☁️ Domestic
-  - DOMAIN-SUFFIX,booking.com,☁️ Domestic
-  - DOMAIN-SUFFIX,broadcasthe.net,☁️ Domestic
-  - DOMAIN-SUFFIX,bstatic.com,☁️ Domestic
-  - DOMAIN-SUFFIX,cailianpress.com,☁️ Domestic
-  - DOMAIN-SUFFIX,cambridge.org,☁️ Domestic
-  - DOMAIN-SUFFIX,camera360.com,☁️ Domestic
-  - DOMAIN-SUFFIX,cas.org,☁️ Domestic
-  - DOMAIN-SUFFIX,ccgslb.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ccgslb.net,☁️ Domestic
-  - DOMAIN-SUFFIX,cctv.com,☁️ Domestic
-  - DOMAIN-SUFFIX,cctvpic.com,☁️ Domestic
-  - DOMAIN-SUFFIX,chdbits.co,☁️ Domestic
-  - DOMAIN-SUFFIX,chinanetcenter.com,☁️ Domestic
-  - DOMAIN-SUFFIX,chinaso.com,☁️ Domestic
-  - DOMAIN-SUFFIX,chua.pro,☁️ Domestic
-  - DOMAIN-SUFFIX,chuimg.com,☁️ Domestic
-  - DOMAIN-SUFFIX,chunyu.mobi,☁️ Domestic
-  - DOMAIN-SUFFIX,chushou.tv,☁️ Domestic
-  - DOMAIN-SUFFIX,clarivate.com,☁️ Domestic
-  - DOMAIN-SUFFIX,classix-unlimited.co.uk,☁️ Domestic
-  - DOMAIN-SUFFIX,cmbchina.com,☁️ Domestic
-  - DOMAIN-SUFFIX,cmbimg.com,☁️ Domestic
-  - DOMAIN-SUFFIX,cn,☁️ Domestic
-  - DOMAIN-SUFFIX,com-hs-hkdy.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ctrip.com,☁️ Domestic
-  - DOMAIN-SUFFIX,czybjz.com,☁️ Domestic
-  - DOMAIN-SUFFIX,dandanzan.com,☁️ Domestic
-  - DOMAIN-SUFFIX,dfcfw.com,☁️ Domestic
-  - DOMAIN-SUFFIX,didialift.com,☁️ Domestic
-  - DOMAIN-SUFFIX,didiglobal.com,☁️ Domestic
-  - DOMAIN-SUFFIX,dingtalk.com,☁️ Domestic
-  - DOMAIN-SUFFIX,docschina.org,☁️ Domestic
-  - DOMAIN-SUFFIX,douban.com,☁️ Domestic
-  - DOMAIN-SUFFIX,doubanio.com,☁️ Domestic
-  - DOMAIN-SUFFIX,douyu.com,☁️ Domestic
-  - DOMAIN-SUFFIX,duokan.com,☁️ Domestic
-  - DOMAIN-SUFFIX,dxycdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,dytt8.net,☁️ Domestic
-  - DOMAIN-SUFFIX,eastmoney.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ebscohost.com,☁️ Domestic
-  - DOMAIN-SUFFIX,emerald.com,☁️ Domestic
-  - DOMAIN-SUFFIX,empornium.me,☁️ Domestic
-  - DOMAIN-SUFFIX,engineeringvillage.com,☁️ Domestic
-  - DOMAIN-SUFFIX,eudic.net,☁️ Domestic
-  - DOMAIN-SUFFIX,feiliao.com,☁️ Domestic
-  - DOMAIN-SUFFIX,feng.com,☁️ Domestic
-  - DOMAIN-SUFFIX,fengkongcloud.com,☁️ Domestic
-  - DOMAIN-SUFFIX,fjhps.com,☁️ Domestic
-  - DOMAIN-SUFFIX,frdic.com,☁️ Domestic
-  - DOMAIN-SUFFIX,futu5.com,☁️ Domestic
-  - DOMAIN-SUFFIX,futunn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,gandi.net,☁️ Domestic
-  - DOMAIN-SUFFIX,gazellegames.net,☁️ Domestic
-  - DOMAIN-SUFFIX,geilicdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,getpricetag.com,☁️ Domestic
-  - DOMAIN-SUFFIX,gifshow.com,☁️ Domestic
-  - DOMAIN-SUFFIX,godic.net,☁️ Domestic
-  - DOMAIN-SUFFIX,gtimg.com,☁️ Domestic
-  - DOMAIN-SUFFIX,hdbits.org,☁️ Domestic
-  - DOMAIN-SUFFIX,hdchina.org,☁️ Domestic
-  - DOMAIN-SUFFIX,hdhome.org,☁️ Domestic
-  - DOMAIN-SUFFIX,hdsky.me,☁️ Domestic
-  - DOMAIN-SUFFIX,hdslb.com,☁️ Domestic
-  - DOMAIN-SUFFIX,hicloud.com,☁️ Domestic
-  - DOMAIN-SUFFIX,hitv.com,☁️ Domestic
-  - DOMAIN-SUFFIX,hongxiu.com,☁️ Domestic
-  - DOMAIN-SUFFIX,hostbuf.com,☁️ Domestic
-  - DOMAIN-SUFFIX,huxiucdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,huya.com,☁️ Domestic
-  - DOMAIN-SUFFIX,icetorrent.org,☁️ Domestic
-  - DOMAIN-SUFFIX,icevirtuallibrary.com,☁️ Domestic
-  - DOMAIN-SUFFIX,iciba.com,☁️ Domestic
-  - DOMAIN-SUFFIX,idqqimg.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ieee.org,☁️ Domestic
-  - DOMAIN-SUFFIX,iesdouyin.com,☁️ Domestic
-  - DOMAIN-SUFFIX,igamecj.com,☁️ Domestic
-  - DOMAIN-SUFFIX,imf.org,☁️ Domestic
-  - DOMAIN-SUFFIX,infinitynewtab.com,☁️ Domestic
-  - DOMAIN-SUFFIX,iop.org,☁️ Domestic
-  - DOMAIN-SUFFIX,ip-cdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ip.la,☁️ Domestic
-  - DOMAIN-SUFFIX,ipip.net,☁️ Domestic
-  - DOMAIN-SUFFIX,ipv6-test.com,☁️ Domestic
-  - DOMAIN-SUFFIX,iqiyi.com,☁️ Domestic
-  - DOMAIN-SUFFIX,iqiyipic.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ithome.com,☁️ Domestic
-  - DOMAIN-SUFFIX,jamanetwork.com,☁️ Domestic
-  - DOMAIN-SUFFIX,java.com,☁️ Domestic
-  - DOMAIN-SUFFIX,jd.com,☁️ Domestic
-  - DOMAIN-SUFFIX,jd.hk,☁️ Domestic
-  - DOMAIN-SUFFIX,jdpay.com,☁️ Domestic
-  - DOMAIN-SUFFIX,jhu.edu,☁️ Domestic
-  - DOMAIN-SUFFIX,jidian.im,☁️ Domestic
-  - DOMAIN-SUFFIX,jpopsuki.eu,☁️ Domestic
-  - DOMAIN-SUFFIX,jstor.org,☁️ Domestic
-  - DOMAIN-SUFFIX,jstucdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,kaiyanapp.com,☁️ Domestic
-  - DOMAIN-SUFFIX,karger.com,☁️ Domestic
-  - DOMAIN-SUFFIX,kaspersky-labs.com,☁️ Domestic
-  - DOMAIN-SUFFIX,keepcdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,keepfrds.com,☁️ Domestic
-  - DOMAIN-SUFFIX,kkmh.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ksosoft.com,☁️ Domestic
-  - DOMAIN-SUFFIX,kuyunbo.club,☁️ Domestic
-  - DOMAIN-SUFFIX,libguides.com,☁️ Domestic
-  - DOMAIN-SUFFIX,livechina.com,☁️ Domestic
-  - DOMAIN-SUFFIX,lofter.com,☁️ Domestic
-  - DOMAIN-SUFFIX,loli.net,☁️ Domestic
-  - DOMAIN-SUFFIX,luojilab.com,☁️ Domestic
-  - DOMAIN-SUFFIX,m-team.cc,☁️ Domestic
-  - DOMAIN-SUFFIX,madsrevolution.net,☁️ Domestic
-  - DOMAIN-SUFFIX,maoyan.com,☁️ Domestic
-  - DOMAIN-SUFFIX,maoyun.tv,☁️ Domestic
-  - DOMAIN-SUFFIX,meipai.com,☁️ Domestic
-  - DOMAIN-SUFFIX,meitu.com,☁️ Domestic
-  - DOMAIN-SUFFIX,meituan.com,☁️ Domestic
-  - DOMAIN-SUFFIX,meituan.net,☁️ Domestic
-  - DOMAIN-SUFFIX,meitudata.com,☁️ Domestic
-  - DOMAIN-SUFFIX,meitustat.com,☁️ Domestic
-  - DOMAIN-SUFFIX,meixincdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,mgtv.com,☁️ Domestic
-  - DOMAIN-SUFFIX,mi-img.com,☁️ Domestic
-  - DOMAIN-SUFFIX,microsoft.com,☁️ Domestic
-  - DOMAIN-SUFFIX,miui.com,☁️ Domestic
-  - DOMAIN-SUFFIX,miwifi.com,☁️ Domestic
-  - DOMAIN-SUFFIX,mobike.com,☁️ Domestic
-  - DOMAIN-SUFFIX,moke.com,☁️ Domestic
-  - DOMAIN-SUFFIX,morethan.tv,☁️ Domestic
-  - DOMAIN-SUFFIX,mpg.de,☁️ Domestic
-  - DOMAIN-SUFFIX,msecnd.net,☁️ Domestic
-  - DOMAIN-SUFFIX,mubu.com,☁️ Domestic
-  - DOMAIN-SUFFIX,mxhichina.com,☁️ Domestic
-  - DOMAIN-SUFFIX,myanonamouse.net,☁️ Domestic
-  - DOMAIN-SUFFIX,myapp.com,☁️ Domestic
-  - DOMAIN-SUFFIX,myilibrary.com,☁️ Domestic
-  - DOMAIN-SUFFIX,myqcloud.com,☁️ Domestic
-  - DOMAIN-SUFFIX,myzaker.com,☁️ Domestic
-  - DOMAIN-SUFFIX,nanyangpt.com,☁️ Domestic
-  - DOMAIN-SUFFIX,nature.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ncore.cc,☁️ Domestic
-  - DOMAIN-SUFFIX,netease.com,☁️ Domestic
-  - DOMAIN-SUFFIX,netspeedtestmaster.com,☁️ Domestic
-  - DOMAIN-SUFFIX,nim-lang-cn.org,☁️ Domestic
-  - DOMAIN-SUFFIX,nvidia.com,☁️ Domestic
-  - DOMAIN-SUFFIX,oecd-ilibrary.org,☁️ Domestic
-  - DOMAIN-SUFFIX,office365.com,☁️ Domestic
-  - DOMAIN-SUFFIX,open.cd,☁️ Domestic
-  - DOMAIN-SUFFIX,oracle.com,☁️ Domestic
-  - DOMAIN-SUFFIX,osapublishing.org,☁️ Domestic
-  - DOMAIN-SUFFIX,oup.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ourbits.club,☁️ Domestic
-  - DOMAIN-SUFFIX,ourdvs.com,☁️ Domestic
-  - DOMAIN-SUFFIX,outlook.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ovid.com,☁️ Domestic
-  - DOMAIN-SUFFIX,oxfordartonline.com,☁️ Domestic
-  - DOMAIN-SUFFIX,oxfordbibliographies.com,☁️ Domestic
-  - DOMAIN-SUFFIX,oxfordmusiconline.com,☁️ Domestic
-  - DOMAIN-SUFFIX,passthepopcorn.me,☁️ Domestic
-  - DOMAIN-SUFFIX,paypal.com,☁️ Domestic
-  - DOMAIN-SUFFIX,paypalobjects.com,☁️ Domestic
-  - DOMAIN-SUFFIX,pnas.org,☁️ Domestic
-  - DOMAIN-SUFFIX,privatehd.to,☁️ Domestic
-  - DOMAIN-SUFFIX,proquest.com,☁️ Domestic
-  - DOMAIN-SUFFIX,pstatp.com,☁️ Domestic
-  - DOMAIN-SUFFIX,pterclub.com,☁️ Domestic
-  - DOMAIN-SUFFIX,qdaily.com,☁️ Domestic
-  - DOMAIN-SUFFIX,qhimg.com,☁️ Domestic
-  - DOMAIN-SUFFIX,qhres.com,☁️ Domestic
-  - DOMAIN-SUFFIX,qidian.com,☁️ Domestic
-  - DOMAIN-SUFFIX,qq.com,☁️ Domestic
-  - DOMAIN-SUFFIX,qyer.com,☁️ Domestic
-  - DOMAIN-SUFFIX,qyerstatic.com,☁️ Domestic
-  - DOMAIN-SUFFIX,raychase.net,☁️ Domestic
-  - DOMAIN-SUFFIX,redacted.ch,☁️ Domestic
-  - DOMAIN-SUFFIX,ronghub.com,☁️ Domestic
-  - DOMAIN-SUFFIX,rsc.org,☁️ Domestic
-  - DOMAIN-SUFFIX,ruguoapp.com,☁️ Domestic
-  - DOMAIN-SUFFIX,s-microsoft.com,☁️ Domestic
-  - DOMAIN-SUFFIX,s-reader.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sagepub.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sankuai.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sciencedirect.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sciencemag.org,☁️ Domestic
-  - DOMAIN-SUFFIX,scomper.me,☁️ Domestic
-  - DOMAIN-SUFFIX,scopus.com,☁️ Domestic
-  - DOMAIN-SUFFIX,seafile.com,☁️ Domestic
-  - DOMAIN-SUFFIX,servicewechat.com,☁️ Domestic
-  - DOMAIN-SUFFIX,siam.org,☁️ Domestic
-  - DOMAIN-SUFFIX,sina.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sm.ms,☁️ Domestic
-  - DOMAIN-SUFFIX,smzdm.com,☁️ Domestic
-  - DOMAIN-SUFFIX,snapdrop.net,☁️ Domestic
-  - DOMAIN-SUFFIX,snssdk.com,☁️ Domestic
-  - DOMAIN-SUFFIX,snwx.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sogo.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sogou.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sogoucdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sohu-inc.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sohu.com,☁️ Domestic
-  - DOMAIN-SUFFIX,sohucs.com,☁️ Domestic
-  - DOMAIN-SUFFIX,soku.com,☁️ Domestic
-  - DOMAIN-SUFFIX,spiedigitallibrary.org,☁️ Domestic
-  - DOMAIN-SUFFIX,springer.com,☁️ Domestic
-  - DOMAIN-SUFFIX,springerlink.com,☁️ Domestic
-  - DOMAIN-SUFFIX,springsunday.net,☁️ Domestic
-  - DOMAIN-SUFFIX,sspai.com,☁️ Domestic
-  - DOMAIN-SUFFIX,staticdn.net,☁️ Domestic
-  - DOMAIN-SUFFIX,steam-chat.com,☁️ Domestic
-  - DOMAIN-SUFFIX,steamcdn-a.akamaihd.net,☁️ Domestic
-  - DOMAIN-SUFFIX,steamcontent.com,☁️ Domestic
-  - DOMAIN-SUFFIX,steamgames.com,☁️ Domestic
-  - DOMAIN-SUFFIX,steampowered.com,☁️ Domestic
-  - DOMAIN-SUFFIX,steamstat.us,☁️ Domestic
-  - DOMAIN-SUFFIX,steamstatic.com,☁️ Domestic
-  - DOMAIN-SUFFIX,steamusercontent.com,☁️ Domestic
-  - DOMAIN-SUFFIX,takungpao.com,☁️ Domestic
-  - DOMAIN-SUFFIX,tandfonline.com,☁️ Domestic
-  - DOMAIN-SUFFIX,teamviewer.com,☁️ Domestic
-  - DOMAIN-SUFFIX,tencent-cloud.net,☁️ Domestic
-  - DOMAIN-SUFFIX,tencent.com,☁️ Domestic
-  - DOMAIN-SUFFIX,tenpay.com,☁️ Domestic
-  - DOMAIN-SUFFIX,test-ipv6.com,☁️ Domestic
-  - DOMAIN-SUFFIX,tianyancha.com,☁️ Domestic
-  - DOMAIN-SUFFIX,tjupt.org,☁️ Domestic
-  - DOMAIN-SUFFIX,tmall.com,☁️ Domestic
-  - DOMAIN-SUFFIX,tmall.hk,☁️ Domestic
-  - DOMAIN-SUFFIX,totheglory.im,☁️ Domestic
-  - DOMAIN-SUFFIX,toutiao.com,☁️ Domestic
-  - DOMAIN-SUFFIX,udache.com,☁️ Domestic
-  - DOMAIN-SUFFIX,udacity.com,☁️ Domestic
-  - DOMAIN-SUFFIX,un.org,☁️ Domestic
-  - DOMAIN-SUFFIX,uni-bielefeld.de,☁️ Domestic
-  - DOMAIN-SUFFIX,uning.com,☁️ Domestic
-  - DOMAIN-SUFFIX,v-56.com,☁️ Domestic
-  - DOMAIN-SUFFIX,visualstudio.com,☁️ Domestic
-  - DOMAIN-SUFFIX,vmware.com,☁️ Domestic
-  - DOMAIN-SUFFIX,wangsu.com,☁️ Domestic
-  - DOMAIN-SUFFIX,weather.com,☁️ Domestic
-  - DOMAIN-SUFFIX,webofknowledge.com,☁️ Domestic
-  - DOMAIN-SUFFIX,wechat.com,☁️ Domestic
-  - DOMAIN-SUFFIX,weibo.com,☁️ Domestic
-  - DOMAIN-SUFFIX,weibocdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,weico.cc,☁️ Domestic
-  - DOMAIN-SUFFIX,weidian.com,☁️ Domestic
-  - DOMAIN-SUFFIX,westlaw.com,☁️ Domestic
-  - DOMAIN-SUFFIX,whatismyip.com,☁️ Domestic
-  - DOMAIN-SUFFIX,wiley.com,☁️ Domestic
-  - DOMAIN-SUFFIX,windows.com,☁️ Domestic
-  - DOMAIN-SUFFIX,windowsupdate.com,☁️ Domestic
-  - DOMAIN-SUFFIX,worldbank.org,☁️ Domestic
-  - DOMAIN-SUFFIX,worldscientific.com,☁️ Domestic
-  - DOMAIN-SUFFIX,xiachufang.com,☁️ Domestic
-  - DOMAIN-SUFFIX,xiami.com,☁️ Domestic
-  - DOMAIN-SUFFIX,xiami.net,☁️ Domestic
-  - DOMAIN-SUFFIX,xiaomi.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ximalaya.com,☁️ Domestic
-  - DOMAIN-SUFFIX,xinhuanet.com,☁️ Domestic
-  - DOMAIN-SUFFIX,xmcdn.com,☁️ Domestic
-  - DOMAIN-SUFFIX,yangkeduo.com,☁️ Domestic
-  - DOMAIN-SUFFIX,ydstatic.com,☁️ Domestic
-  - DOMAIN-SUFFIX,youku.com,☁️ Domestic
-  - DOMAIN-SUFFIX,zhangzishi.cc,☁️ Domestic
-  - DOMAIN-SUFFIX,zhihu.com,☁️ Domestic
-  - DOMAIN-SUFFIX,zhimg.com,☁️ Domestic
-  - DOMAIN-SUFFIX,zhuihd.com,☁️ Domestic
-  - DOMAIN-SUFFIX,zimuzu.io,☁️ Domestic
-  - DOMAIN-SUFFIX,zimuzu.tv,☁️ Domestic
-  - DOMAIN-SUFFIX,zmz2019.com,☁️ Domestic
-  - DOMAIN-SUFFIX,zmzapi.com,☁️ Domestic
-  - DOMAIN-SUFFIX,zmzapi.net,☁️ Domestic
-  - DOMAIN-SUFFIX,zmzfile.com,☁️ Domestic
-  - DOMAIN-SUFFIX,google.cn,☁️ Domestic
-  - DOMAIN-SUFFIX,manmanbuy.com,☁️ Domestic
-  - DOMAIN,www-cdn.icloud.com.akadns.net,☁️ Domestic
-  - DOMAIN-SUFFIX,aaplimg.com,☁️ Domestic
-  - DOMAIN-SUFFIX,apple-cloudkit.com,☁️ Domestic
-  - DOMAIN-SUFFIX,apple.co,☁️ Domestic
-  - DOMAIN-SUFFIX,apple.com,☁️ Domestic
-  - DOMAIN-SUFFIX,apple.com.cn,☁️ Domestic
-  - DOMAIN-SUFFIX,appstore.com,☁️ Domestic
-  - DOMAIN-SUFFIX,cdn-apple.com,☁️ Domestic
-  - DOMAIN-SUFFIX,crashlytics.com,☁️ Domestic
-  - DOMAIN-SUFFIX,icloud-content.com,☁️ Domestic
-  - DOMAIN-SUFFIX,icloud.com,☁️ Domestic
-  - DOMAIN-SUFFIX,icloud.com.cn,☁️ Domestic
-  - DOMAIN-SUFFIX,me.com,☁️ Domestic
-  - DOMAIN-SUFFIX,mzstatic.com,☁️ Domestic
-  - DOMAIN,injections.adguard.org,☁️ Domestic
-  - DOMAIN,local.adguard.org,☁️ Domestic
-  - DOMAIN-SUFFIX,local,☁️ Domestic
-  - IP-CIDR,127.0.0.0/8,☁️ Domestic
-  - IP-CIDR,172.16.0.0/12,☁️ Domestic
-  - IP-CIDR,192.168.0.0/16,☁️ Domestic
-  - IP-CIDR,10.0.0.0/8,☁️ Domestic
-  - IP-CIDR,17.0.0.0/8,☁️ Domestic
-  - IP-CIDR,100.64.0.0/10,☁️ Domestic
-  - IP-CIDR,224.0.0.0/4,☁️ Domestic
-  - IP-CIDR6,fe80::/10,☁️ Domestic
-  - DOMAIN-KEYWORD,admaster,🛡 Shield
-  - DOMAIN-SUFFIX,lbyczf.com,🛡 Shield
-  - DOMAIN-SUFFIX,faster.goodfrog.net,🛡 Shield
-  - DOMAIN-KEYWORD,adsage,🛡 Shield
-  - DOMAIN-SUFFIX,cylink.me,🛡 Shield
-  - DOMAIN-KEYWORD,admarvel,🛡 Shield
-  - DOMAIN-KEYWORD,admaster,🛡 Shield
-  - DOMAIN-KEYWORD,adsage,🛡 Shield
-  - DOMAIN-KEYWORD,adsmogo,🛡 Shield
-  - DOMAIN-KEYWORD,adsrvmedia,🛡 Shield
-  - DOMAIN-KEYWORD,adwords,🛡 Shield
-  - DOMAIN-KEYWORD,adservice,🛡 Shield
-  - DOMAIN-SUFFIX,appsflyer.com,🛡 Shield
-  - DOMAIN-KEYWORD,domob,🛡 Shield
-  - DOMAIN-SUFFIX,doubleclick.net,🛡 Shield
-  - DOMAIN-KEYWORD,duomeng,🛡 Shield
-  - DOMAIN-KEYWORD,dwtrack,🛡 Shield
-  - DOMAIN-KEYWORD,guanggao,🛡 Shield
-  - DOMAIN-KEYWORD,lianmeng,🛡 Shield
-  - DOMAIN-SUFFIX,mmstat.com,🛡 Shield
-  - DOMAIN-KEYWORD,mopub,🛡 Shield
-  - DOMAIN-KEYWORD,omgmta,🛡 Shield
-  - DOMAIN-KEYWORD,openx,🛡 Shield
-  - DOMAIN-KEYWORD,partnerad,🛡 Shield
-  - DOMAIN-KEYWORD,pingfore,🛡 Shield
-  - DOMAIN-KEYWORD,supersonicads,🛡 Shield
-  - DOMAIN-KEYWORD,uedas,🛡 Shield
-  - DOMAIN-KEYWORD,umeng,🛡 Shield
-  - DOMAIN-KEYWORD,usage,🛡 Shield
-  - DOMAIN-SUFFIX,vungle.com,🛡 Shield
-  - DOMAIN-KEYWORD,wlmonitor,🛡 Shield
-  - DOMAIN-KEYWORD,zjtoolbar,🛡 Shield
-  - GEOIP,CN,☁️ Domestic
-  - MATCH,❤️ Joel
-proxy-providers: {}
-rule-providers: {}
+
+    - DOMAIN-SUFFIX,google.com,Proxy
+    - DOMAIN-KEYWORD,google,Proxy
+    - DOMAIN,google.com,Proxy
+    - DOMAIN-SUFFIX,ad.com,REJECT
+    - GEOIP,CN,DIRECT
+    - MATCH,Proxy
+
+
+    # 国内网站
+    - DOMAIN-SUFFIX,cn,DIRECT
+    - DOMAIN-KEYWORD,-cn,DIRECT
+    - DOMAIN-SUFFIX,126.com,DIRECT
+    - DOMAIN-SUFFIX,126.net,DIRECT
+    - DOMAIN-SUFFIX,127.net,DIRECT
+    - DOMAIN-SUFFIX,163.com,DIRECT
+    - DOMAIN-SUFFIX,360buyimg.com,DIRECT
+    - DOMAIN-SUFFIX,36kr.com,DIRECT
+    - DOMAIN-SUFFIX,acfun.tv,DIRECT
+    - DOMAIN-SUFFIX,air-matters.com,DIRECT
+    - DOMAIN-SUFFIX,aixifan.com,DIRECT
+    - DOMAIN-KEYWORD,alicdn,DIRECT
+    - DOMAIN-KEYWORD,alipay,DIRECT
+    - DOMAIN-KEYWORD,taobao,DIRECT
+    - DOMAIN-SUFFIX,amap.com,DIRECT
+    - DOMAIN-SUFFIX,autonavi.com,DIRECT
+    - DOMAIN-KEYWORD,baidu,DIRECT
+    - DOMAIN-SUFFIX,bdimg.com,DIRECT
+    - DOMAIN-SUFFIX,bdstatic.com,DIRECT
+    - DOMAIN-SUFFIX,bilibili.com,DIRECT
+    - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+    - DOMAIN-SUFFIX,caiyunapp.com,DIRECT
+    - DOMAIN-SUFFIX,clouddn.com,DIRECT
+    - DOMAIN-SUFFIX,cnbeta.com,DIRECT
+    - DOMAIN-SUFFIX,cnbetacdn.com,DIRECT
+    - DOMAIN-SUFFIX,cootekservice.com,DIRECT
+    - DOMAIN-SUFFIX,csdn.net,DIRECT
+    - DOMAIN-SUFFIX,ctrip.com,DIRECT
+    - DOMAIN-SUFFIX,dgtle.com,DIRECT
+    - DOMAIN-SUFFIX,dianping.com,DIRECT
+    - DOMAIN-SUFFIX,douban.com,DIRECT
+    - DOMAIN-SUFFIX,doubanio.com,DIRECT
+    - DOMAIN-SUFFIX,duokan.com,DIRECT
+    - DOMAIN-SUFFIX,easou.com,DIRECT
+    - DOMAIN-SUFFIX,ele.me,DIRECT
+    - DOMAIN-SUFFIX,feng.com,DIRECT
+    - DOMAIN-SUFFIX,fir.im,DIRECT
+    - DOMAIN-SUFFIX,frdic.com,DIRECT
+    - DOMAIN-SUFFIX,g-cores.com,DIRECT
+    - DOMAIN-SUFFIX,godic.net,DIRECT
+    - DOMAIN-SUFFIX,gtimg.com,DIRECT
+    - DOMAIN,cdn.hockeyapp.net,DIRECT
+    - DOMAIN-SUFFIX,hongxiu.com,DIRECT
+    - DOMAIN-SUFFIX,hxcdn.net,DIRECT
+    - DOMAIN-SUFFIX,iciba.com,DIRECT
+    - DOMAIN-SUFFIX,ifeng.com,DIRECT
+    - DOMAIN-SUFFIX,ifengimg.com,DIRECT
+    - DOMAIN-SUFFIX,ipip.net,DIRECT
+    - DOMAIN-SUFFIX,iqiyi.com,DIRECT
+    - DOMAIN-SUFFIX,jd.com,DIRECT
+    - DOMAIN-SUFFIX,jianshu.com,DIRECT
+    - DOMAIN-SUFFIX,knewone.com,DIRECT
+    - DOMAIN-SUFFIX,le.com,DIRECT
+    - DOMAIN-SUFFIX,lecloud.com,DIRECT
+    - DOMAIN-SUFFIX,lemicp.com,DIRECT
+    - DOMAIN-SUFFIX,licdn.com,DIRECT
+    - DOMAIN-SUFFIX,linkedin.com,DIRECT
+    - DOMAIN-SUFFIX,luoo.net,DIRECT
+    - DOMAIN-SUFFIX,meituan.com,DIRECT
+    - DOMAIN-SUFFIX,meituan.net,DIRECT
+    - DOMAIN-SUFFIX,mi.com,DIRECT
+    - DOMAIN-SUFFIX,miaopai.com,DIRECT
+    - DOMAIN-SUFFIX,microsoft.com,DIRECT
+    - DOMAIN-SUFFIX,microsoftonline.com,DIRECT
+    - DOMAIN-SUFFIX,miui.com,DIRECT
+    - DOMAIN-SUFFIX,miwifi.com,DIRECT
+    - DOMAIN-SUFFIX,mob.com,DIRECT
+    - DOMAIN-SUFFIX,netease.com,DIRECT
+    - DOMAIN-SUFFIX,office.com,DIRECT
+    - DOMAIN-SUFFIX,office365.com,DIRECT
+    - DOMAIN-KEYWORD,officecdn,DIRECT
+    - DOMAIN-SUFFIX,oschina.net,DIRECT
+    - DOMAIN-SUFFIX,ppsimg.com,DIRECT
+    - DOMAIN-SUFFIX,pstatp.com,DIRECT
+    - DOMAIN-SUFFIX,qcloud.com,DIRECT
+    - DOMAIN-SUFFIX,qdaily.com,DIRECT
+    - DOMAIN-SUFFIX,qdmm.com,DIRECT
+    - DOMAIN-SUFFIX,qhimg.com,DIRECT
+    - DOMAIN-SUFFIX,qhres.com,DIRECT
+    - DOMAIN-SUFFIX,qidian.com,DIRECT
+    - DOMAIN-SUFFIX,qihucdn.com,DIRECT
+    - DOMAIN-SUFFIX,qiniu.com,DIRECT
+    - DOMAIN-SUFFIX,qiniucdn.com,DIRECT
+    - DOMAIN-SUFFIX,qiyipic.com,DIRECT
+    - DOMAIN-SUFFIX,qq.com,DIRECT
+    - DOMAIN-SUFFIX,qqurl.com,DIRECT
+    - DOMAIN-SUFFIX,rarbg.to,DIRECT
+    - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+    - DOMAIN-SUFFIX,segmentfault.com,DIRECT
+    - DOMAIN-SUFFIX,sinaapp.com,DIRECT
+    - DOMAIN-SUFFIX,smzdm.com,DIRECT
+    - DOMAIN-SUFFIX,snapdrop.net,DIRECT
+    - DOMAIN-SUFFIX,sogou.com,DIRECT
+    - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+    - DOMAIN-SUFFIX,sohu.com,DIRECT
+    - DOMAIN-SUFFIX,soku.com,DIRECT
+    - DOMAIN-SUFFIX,speedtest.net,DIRECT
+    - DOMAIN-SUFFIX,sspai.com,DIRECT
+    - DOMAIN-SUFFIX,suning.com,DIRECT
+    - DOMAIN-SUFFIX,taobao.com,DIRECT
+    - DOMAIN-SUFFIX,tencent.com,DIRECT
+    - DOMAIN-SUFFIX,tenpay.com,DIRECT
+    - DOMAIN-SUFFIX,tianyancha.com,DIRECT
+    - DOMAIN-SUFFIX,tmall.com,DIRECT
+    - DOMAIN-SUFFIX,tudou.com,DIRECT
+    - DOMAIN-SUFFIX,umetrip.com,DIRECT
+    - DOMAIN-SUFFIX,upaiyun.com,DIRECT
+    - DOMAIN-SUFFIX,upyun.com,DIRECT
+    - DOMAIN-SUFFIX,veryzhun.com,DIRECT
+    - DOMAIN-SUFFIX,weather.com,DIRECT
+    - DOMAIN-SUFFIX,weibo.com,DIRECT
+    - DOMAIN-SUFFIX,xiami.com,DIRECT
+    - DOMAIN-SUFFIX,xiami.net,DIRECT
+    - DOMAIN-SUFFIX,xiaomicp.com,DIRECT
+    - DOMAIN-SUFFIX,ximalaya.com,DIRECT
+    - DOMAIN-SUFFIX,xmcdn.com,DIRECT
+    - DOMAIN-SUFFIX,xunlei.com,DIRECT
+    - DOMAIN-SUFFIX,yhd.com,DIRECT
+    - DOMAIN-SUFFIX,yihaodianimg.com,DIRECT
+    - DOMAIN-SUFFIX,yinxiang.com,DIRECT
+    - DOMAIN-SUFFIX,ykimg.com,DIRECT
+    - DOMAIN-SUFFIX,youdao.com,DIRECT
+    - DOMAIN-SUFFIX,youku.com,DIRECT
+    - DOMAIN-SUFFIX,zealer.com,DIRECT
+    - DOMAIN-SUFFIX,zhihu.com,DIRECT
+    - DOMAIN-SUFFIX,zhimg.com,DIRECT
+    - DOMAIN-SUFFIX,zimuzu.tv,DIRECT
+    - DOMAIN-SUFFIX,zoho.com,DIRECT
+
+
+    # 常见广告域名屏蔽
+    - DOMAIN-KEYWORD,admarvel,REJECT
+    - DOMAIN-KEYWORD,admaster,REJECT
+    - DOMAIN-KEYWORD,adsage,REJECT
+    - DOMAIN-KEYWORD,adsmogo,REJECT
+    - DOMAIN-KEYWORD,adsrvmedia,REJECT
+    - DOMAIN-KEYWORD,adwords,REJECT
+    - DOMAIN-KEYWORD,adservice,REJECT
+    - DOMAIN-SUFFIX,appsflyer.com,REJECT
+    - DOMAIN-KEYWORD,domob,REJECT
+    - DOMAIN-SUFFIX,doubleclick.net,REJECT
+    - DOMAIN-KEYWORD,duomeng,REJECT
+    - DOMAIN-KEYWORD,dwtrack,REJECT
+    - DOMAIN-KEYWORD,guanggao,REJECT
+    - DOMAIN-KEYWORD,lianmeng,REJECT
+    - DOMAIN-SUFFIX,mmstat.com,REJECT
+    - DOMAIN-KEYWORD,mopub,REJECT
+    - DOMAIN-KEYWORD,omgmta,REJECT
+    - DOMAIN-KEYWORD,openx,REJECT
+    - DOMAIN-KEYWORD,partnerad,REJECT
+    - DOMAIN-KEYWORD,pingfore,REJECT
+    - DOMAIN-KEYWORD,supersonicads,REJECT
+    - DOMAIN-KEYWORD,uedas,REJECT
+    - DOMAIN-KEYWORD,umeng,REJECT
+    - DOMAIN-KEYWORD,usage,REJECT
+    - DOMAIN-SUFFIX,vungle.com,REJECT
+    - DOMAIN-KEYWORD,wlmonitor,REJECT
+    - DOMAIN-KEYWORD,zjtoolbar,REJECT
+
+
+    # LAN
+    - DOMAIN,injections.adguard.org,DIRECT
+    - DOMAIN,local.adguard.org,DIRECT
+    - DOMAIN-SUFFIX,local,DIRECT
+    - IP-CIDR,127.0.0.0/8,DIRECT
+    - IP-CIDR,172.16.0.0/12,DIRECT
+    - IP-CIDR,192.168.0.0/16,DIRECT
+    - IP-CIDR,10.0.0.0/8,DIRECT
+    - IP-CIDR,17.0.0.0/8,DIRECT
+    - IP-CIDR,100.64.0.0/10,DIRECT
