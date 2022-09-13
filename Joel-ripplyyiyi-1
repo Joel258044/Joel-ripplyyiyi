@@ -2069,7 +2069,7 @@ rules:
   - DOMAIN-KEYWORD,wlmonitor,🛡 Shield
   - DOMAIN-KEYWORD,zjtoolbar,🛡 Shield
   - GEOIP,CN,☁️ Domestic
-  - MATCH,❤️ Joel
+  - MATCH,❤️ Joel1
 proxy-providers: {}
 rule-providers: {}
 
